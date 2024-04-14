@@ -1,11 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-
+:root {
   --color-1: #ededed;
   --color-2: #3c5833;
   --color-3: #580808;
   --color-4: #d9d9d9;
+
+  --title-font: "Krona One", sans-serif;
+  --p-font: "Krub", sans-serif;
+}
+
+body {
+  background-color: var(--color-1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: var(--title-font);
+}
+
+p {
+  font-family: var(--p-font);
+}
+
+.app-container {
+  max-width: 1280px;
 }

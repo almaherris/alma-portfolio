@@ -7,12 +7,14 @@ import "./App.css"
 
 export const App = () => {
   return (
-    <div className="app-container">
-      <Intro />
-      <Projects />
-      <Skills />
-      <Contact />
+    <>
+      <div className="app-container">
+        <Intro />
+        <Projects />
+        <Skills />
+        <Contact />
+      </div>
       <Banner />
-    </div>
+    </>
   )
 }

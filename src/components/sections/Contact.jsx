@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <div className="contact">
-      <p>Contact</p>
+      <h2>Contact</h2>
     </div>
   )
 }
