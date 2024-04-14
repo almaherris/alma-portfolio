@@ -8,8 +8,16 @@
   --p-font: "Krub", sans-serif;
 }
 
-body {
+.intro,
+.skills,
+.contact {
+  padding: 25px;
   background-color: var(--color-1);
+}
+
+.projects {
+  padding: 25px;
+  background-color: white;
 }
 
 * {
@@ -33,4 +41,10 @@ p {
 
 .app-container {
   max-width: 1280px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  margin: 20px 0;
 }

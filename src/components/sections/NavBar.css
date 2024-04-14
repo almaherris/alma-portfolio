@@ -1,0 +1,28 @@
+.navbar {
+  height: 68px;
+  background-color: var(--color-2);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hamburger-icon {
+  font-size: 54px;
+  cursor: pointer;
+}
+
+.navbar-title {
+  font-family: var(--title-font);
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu.active {
+  display: none;
+  flex-direction: column;
+}

@@ -1,3 +1,4 @@
+import { NavBar } from "./components/sections/NavBar"
 import { Intro } from "./components/sections/Intro"
 import { Projects } from "./components/sections/Projects"
 import { Skills } from "./components/sections/Skills"
@@ -8,6 +9,7 @@ import "./App.css"
 export const App = () => {
   return (
     <>
+      <NavBar />
       <div className="app-container">
         <Intro />
         <Projects />
