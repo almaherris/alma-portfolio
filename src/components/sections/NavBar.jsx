@@ -1,32 +1,53 @@
 import { useState } from "react"
-import { RxHamburgerMenu } from "react-icons/rx"
+import { RiCloseLine, RiMenuLine } from "react-icons/ri"
 import "./NavBar.css"
 
 export const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
+    setShowMenu(!showMenu)
+  }
+
+  const closeMenu = () => {
+    setShowMenu(false)
   }
 
   return (
     <nav className="navbar">
-      <RxHamburgerMenu className="hamburger-icon" onClick={toggleMenu} />
+      {/* Hamburger menu icon for mobile */}
+      <div className="mobile-menu-icon" onClick={toggleMenu}>
+        {showMenu ? <RiCloseLine /> : <RiMenuLine />}
+      </div>
+
+      {/* Navbar title */}
       <p className="navbar-title">Alma Herrström</p>
-      <ul className={isOpen ? "menu active" : "menu"}>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Projects</a>
-        </li>
-        <li>
-          <a href="#">Skills</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
+
+      {/* Hidden dropdown menu */}
+      <div className={`dropdown-menu ${showMenu ? "open" : ""}`}>
+        <ul>
+          <li>
+            <a href="#intro" onClick={closeMenu}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onClick={closeMenu}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#skills" onClick={closeMenu}>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onClick={closeMenu}>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }

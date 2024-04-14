@@ -8,7 +8,7 @@ export const Intro = () => {
   }
 
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <div className="mobile-profpic">
         <img
           src="/profilepic-S.png"
