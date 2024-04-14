@@ -1,0 +1,59 @@
+.project-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-left: 10px solid var(--color-2);
+  border-bottom: 10px solid var(--color-2);
+  margin-bottom: 15px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.tags p {
+  margin-right: 5px;
+  background-color: black;
+  width: fit-content;
+  padding: 2px 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-button-netlify,
+.link-button-github {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background-color: var(--link-btn-grey);
+  color: #333333;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.link-button-netlify:hover {
+  background-color: var(--color-3);
+  color: white;
+  transition: 0.5s;
+}
+
+.link-button-github:hover {
+  background-color: var(--color-2);
+  color: white;
+  transition: 0.5s;
+}
+
+.button-icon-project {
+  margin-right: 7px;
+  font-size: 30px;
+}
