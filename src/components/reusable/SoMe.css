@@ -1,0 +1,13 @@
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  color: rgb(193, 193, 193);
+  font-size: 25px;
+}
+
+.contact-icons a:hover {
+  color: black;
+  transition: 0.75s;
+}

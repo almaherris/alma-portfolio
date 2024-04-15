@@ -1,5 +1,5 @@
 .project-item {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .project-photo {
@@ -22,7 +22,7 @@
 }
 
 .tags p {
-  margin-right: 5px;
+  margin: 0 5px 5px 0;
   background-color: black;
   width: fit-content;
   padding: 2px 5px;
@@ -33,7 +33,7 @@
 
 .project-buttons {
   display: flex;
-  flex-direction: column;
+  gap: 5px;
 }
 
 .link-button-netlify,
@@ -41,13 +41,18 @@
   display: flex;
   align-items: center;
   width: fit-content;
+  border-radius: 40px;
+  padding: 5px 10px;
   background-color: var(--color-1);
   color: #333333;
   font-family: var(--p-font);
   font-weight: 600;
-  border-radius: 40px;
-  padding: 5px 15px;
-  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.button-icon-project {
+  margin-right: 7px;
+  font-size: 22px;
 }
 
 .link-button-netlify:hover {
@@ -62,7 +67,14 @@
   transition: 0.5s;
 }
 
-.button-icon-project {
-  margin-right: 7px;
-  font-size: 30px;
+@media (min-width: 375px) {
+  .link-button-netlify,
+  .link-button-github {
+    padding: 5px 15px;
+  }
+
+  .button-icon-project {
+    margin-right: 7px;
+    font-size: 22px;
+  }
 }

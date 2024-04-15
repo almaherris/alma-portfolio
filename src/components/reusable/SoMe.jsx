@@ -1,3 +1,5 @@
+import "./SoMe.css"
+
 import {
   FaLinkedinIn,
   FaGithub,
@@ -6,7 +8,7 @@ import {
 } from "react-icons/fa"
 import "./SoMe.css"
 
-export const Contact = () => {
+export const SoMe = () => {
   return (
     <div className="contact-icons">
       <a
@@ -23,7 +25,6 @@ export const Contact = () => {
         aria-label="link to my github">
         <FaGithub />
       </a>
-
       <a
         href="https://stackoverflow.com/users/22531351/almahe"
         target="_blank"
@@ -31,7 +32,6 @@ export const Contact = () => {
         aria-label="link to my stackoverflow">
         <FaStackOverflow />
       </a>
-
       <a
         href="https://www.instagram.com/almaherrstrom/"
         target="_blank"

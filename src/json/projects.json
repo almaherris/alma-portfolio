@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Happy Thoughts",
       "image": "/happythoughts.png",
-      "description": "A React project focused on state management, API interactions for fetching and posting data. Features include a design-aligned UI, sorted thought display by recency, like count for each thought, a form for new thoughts, and a like functionality.",
+      "description": "A React project focused on state management, API interactions for fetching and posting data. Features include a design-aligned UI, like count for each thought, a form for new thoughts, and a like functionality.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -19,7 +19,7 @@
       "id": 2,
       "name": "Weather App",
       "image": "/weatherapp.png",
-      "description": "A weather app fetching weather data from OpenWeatherMap API. Key features include presenting weather data, incorporating functionalities such as displaying current weather, sunrise/sunset times, 5-day forecast and a search function for different cities.",
+      "description": "A weather app fetching weather data from OpenWeatherMap API. Key features include presenting weather data, functionalities such as displaying current weather, sunrise/sunset times, 5-day forecast and a search function for different cities.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -33,7 +33,7 @@
       "id": 3,
       "name": "Music Releases",
       "image": "/musicproject.png",
-      "description": "A React app template to display albums. Features include a structured component hierarchy, design fidelity, hover effects, and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
+      "description": "A React app template to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
       "tags": [
         "HTML5",
         "CSS3",

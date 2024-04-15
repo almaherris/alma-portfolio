@@ -4,7 +4,6 @@ import myCV from "../../assets/my-cv.pdf"
 export const Skills = () => {
   const downloadPdf = () => {
     window.open(myCV)
-    console.log("download logic goes here")
   }
 
   return (

@@ -15,7 +15,8 @@
   background-color: var(--color-1);
 }
 
-.projects {
+.projects,
+.contact {
   padding: 25px;
   background-color: white;
 }
@@ -42,6 +43,12 @@ p {
 
 .title {
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
   margin: 15px 0 30px 0;
+}
+
+@media (min-width: 375px) {
+  .title {
+    font-size: 48px;
+  }
 }
