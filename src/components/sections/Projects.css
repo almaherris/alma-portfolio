@@ -78,3 +78,23 @@
     font-size: 22px;
   }
 }
+
+@media (min-width: 768px) {
+  .project-item {
+    display: flex;
+  }
+
+  .project-photo {
+    width: 200px;
+    height: 250px;
+    border-left: 20px solid var(--color-2);
+    border-bottom: 20px solid var(--color-2);
+  }
+
+  .project-data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+  }
+}
