@@ -50,3 +50,10 @@ li {
     margin: 60px 0 20px 0;
   }
 }
+
+@media (min-width: 1025px) {
+  .skill-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+}

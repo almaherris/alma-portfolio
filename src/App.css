@@ -57,10 +57,6 @@ p {
 }
 
 @media (min-width: 768px) {
-  .title {
-    margin: 15px 0 50px 0;
-  }
-
   .intro,
   .contact,
   .projects {

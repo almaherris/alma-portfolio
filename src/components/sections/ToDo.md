@@ -1,3 +1,3 @@
-- Add arrow to jump back up
 - Toggle dark/light mode
 - Tablet and desktop design
+- Toggle french/swedish/English

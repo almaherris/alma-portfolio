@@ -56,3 +56,38 @@
 .dropdown-menu a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+@media (min-width: 1025px) {
+  .navbar {
+    background-color: var(--color-1);
+  }
+
+  .mobile-menu-icon,
+  .navbar-title {
+    display: none;
+  }
+
+  .dropdown-menu {
+    display: block;
+    position: static;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+  }
+  .dropdown-menu ul {
+    display: flex;
+  }
+
+  .dropdown-menu li {
+    margin: 0 10px;
+  }
+
+  .dropdown-menu a {
+    color: black;
+  }
+
+  .dropdown-menu a:hover {
+    background-color: var(--color-1);
+    color: var(--color-3);
+  }
+}
