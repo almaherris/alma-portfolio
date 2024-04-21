@@ -1,3 +1,8 @@
+.intro {
+  padding: 25px;
+  background-color: var(--color-1);
+}
+
 .mobile-profpic {
   display: flex;
   justify-content: center;
@@ -28,4 +33,47 @@
 
 .intro-text {
   font-size: 20px;
+}
+
+.desktop-middle,
+.desktop-right {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    padding: 50px 120px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .intro {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-profpic {
+    display: none;
+  }
+
+  .desktop-parent {
+    display: grid;
+    grid-template-columns: 55% 40% 5%;
+  }
+
+  .desktop-left {
+  }
+
+  .desktop-middle {
+    display: block;
+  }
+
+  .desktop-left img {
+    object-fit: cover;
+  }
+
+  .desktop-right {
+    display: block;
+    background-color: var(--color-2);
+  }
 }

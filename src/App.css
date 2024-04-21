@@ -9,7 +9,6 @@
   --p-font: "Krub", sans-serif;
 }
 
-.intro,
 .skills {
   padding: 25px;
   background-color: var(--color-1);
@@ -57,7 +56,6 @@ p {
 }
 
 @media (min-width: 768px) {
-  .intro,
   .contact,
   .projects {
     padding: 50px 120px;
