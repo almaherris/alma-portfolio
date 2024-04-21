@@ -36,3 +36,22 @@ li {
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .skills {
+    text-align: left;
+  }
+  .skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px;
+  }
+
+  .button-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .download-button {
+    margin: 60px 0 20px 0;
+  }
+}

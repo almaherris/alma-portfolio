@@ -1,5 +1,7 @@
-.project-item {
-  margin-bottom: 25px;
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 42px;
 }
 
 .project-photo {

@@ -16,7 +16,7 @@
   background-color: var(--color-1);
   border-radius: 50%;
   padding: 10px 10px 5px 10px;
-
+  margin-bottom: 10px;
   animation: moveUpDown 2s linear infinite;
 }
 
