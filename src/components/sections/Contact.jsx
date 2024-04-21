@@ -1,4 +1,4 @@
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa"
 import { SoMe } from "../reusable/SoMe"
 import "./Contact.css"
 
@@ -27,7 +27,7 @@ export const Contact = () => {
       </div>
       <div className="up-btn-container">
         <button className="up-button" onClick={scrollToIntro}>
-        <FaArrowUp />
+          <FaArrowUp />
         </button>
       </div>
     </div>
