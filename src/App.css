@@ -62,12 +62,12 @@ p {
   }
 
   .intro,
-  .projects,
-  .contact {
-    padding: 50px;
+  .contact,
+  .projects {
+    padding: 50px 120px;
   }
 
   .skills {
-    padding: 50px 180px;
+    padding: 50px 200px;
   }
 }

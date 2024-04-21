@@ -15,7 +15,7 @@ export const Intro = () => {
           alt="profile picture of alma"
         />
       </div>
-      <h2 className="title">Frontend developer</h2>
+      <h1 className="title">Frontend developer</h1>
       <p className="intro-text">
         With a background in financial audit and a new-found passion for web
         development, I&apos;m currently in a fast-paced boot camp learning tools
