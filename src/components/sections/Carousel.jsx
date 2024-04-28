@@ -1,13 +1,23 @@
-import { useState, useEffect } from "react"
-import { useSwipeable } from "react-swipeable"
-import "./Carousel.css"
+import { useCarousel } from "../../contexts/CarouselContext"
 
 export const Carousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const { feedbackNumber, feedback, handlers } = useCarousel()
 
-  useEffect(() => {
-    const interval = setInterval(() => {})
-  })
+  const translateValue = -feedbackNumber * 100
 
-  return <div>Carousel</div>
+  return (
+    <div className="carousel-container" {...handlers}>
+      {feedback.map(({ comment, sender, date, id }) => (
+        <div className="slide" key={id}>
+          <div className="carousel-box">
+            <div className="carousel-text">
+              <div className="carousel-comment">{comment}</div>
+              <span>{sender}</span>
+              <p>{date}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
 }

@@ -1,5 +1,33 @@
-import { FeedbackCard } from "../reusable/FeedbackCard"
-import snapshots from "../../json/feedback.json"
+import { Carousel } from "./Carousel"
+import { useCarousel } from "../../contexts/CarouselContext"
+
+export const Feedback = () => {
+  const { feedbackNumber, changeNumber } = useCarousel()
+
+  return (
+    <div className="feedback" id="feedback">
+      <h2 className="title">Words about me</h2>
+      <Carousel />
+      <div className="button-container">
+        <button
+          className={`carousel-btn ${feedbackNumber === 0 ? "active" : ""}`}
+          onClick={() => changeNumber(0)}
+        />
+        <button
+          className={`carousel-btn ${feedbackNumber === 1 ? "active" : ""}`}
+          onClick={() => changeNumber(1)}
+        />
+        <button
+          className={`carousel-btn ${feedbackNumber === 2 ? "active" : ""}`}
+          onClick={() => changeNumber(2)}
+        />
+      </div>
+    </div>
+  )
+}
+
+/*import { FeedbackCard } from "../reusable/FeedbackCard"
+import snapshot from "../../json/snapshot.json"
 import "./Feedback.css"
 
 export const Feedback = () => {
@@ -7,7 +35,7 @@ export const Feedback = () => {
     <div className="feedback" id="feedback">
       <h2 className="title">Words about me</h2>
       <div className="feedback-container">
-        {snapshots.snapshots.map(({ id, comment, sender, date }) => (
+        {snapshot.snapshot.map(({ id, comment, sender, date }) => (
           <FeedbackCard
             key={id}
             comment={comment}
@@ -19,3 +47,4 @@ export const Feedback = () => {
     </div>
   )
 }
+*/

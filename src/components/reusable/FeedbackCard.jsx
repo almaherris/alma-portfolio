@@ -1,5 +1,4 @@
 import PropTypes from "prop-types"
-import "./Feedback.css"
 
 export const FeedbackCard = ({ comment, sender, date }) => {
   return (
