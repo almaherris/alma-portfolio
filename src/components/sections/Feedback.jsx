@@ -1,4 +1,4 @@
-import { FeedbackCard } from "./FeedbackCard"
+import { FeedbackCard } from "../reusable/FeedbackCard"
 import snapshots from "../../json/feedback.json"
 import "./Feedback.css"
 

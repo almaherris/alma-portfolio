@@ -1,8 +1,8 @@
 import projects from "../../json/projects.json"
 import { IoGlobeOutline } from "react-icons/io5"
 import { FaGithub } from "react-icons/fa"
-import { Tags } from "../reusable/Tags"
-import { Button } from "../reusable/Buttons"
+import { Tags } from "./Tags"
+import { Button } from "./Buttons"
 
 export const ProjectCard = () => {
   return (
