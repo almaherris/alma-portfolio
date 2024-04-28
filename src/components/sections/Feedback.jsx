@@ -21,6 +21,18 @@ export const Feedback = () => {
           className={`carousel-btn ${feedbackNumber === 2 ? "active" : ""}`}
           onClick={() => changeNumber(2)}
         />
+         <button
+          className={`carousel-btn ${feedbackNumber === 3 ? "active" : ""}`}
+          onClick={() => changeNumber(3)}
+        />
+         <button
+          className={`carousel-btn ${feedbackNumber === 4 ? "active" : ""}`}
+          onClick={() => changeNumber(4)}
+        />
+         <button
+          className={`carousel-btn ${feedbackNumber === 5 ? "active" : ""}`}
+          onClick={() => changeNumber(5)}
+        />
       </div>
     </div>
   )

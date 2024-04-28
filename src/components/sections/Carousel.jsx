@@ -8,7 +8,10 @@ export const Carousel = () => {
   return (
     <div className="carousel-container" {...handlers}>
       {feedback.map(({ comment, sender, date, id }) => (
-        <div className="slide" key={id}>
+        <div
+          key={id}
+          className="slide"
+          style={{ transform: `translateX(${translateValue}%)` }}>
           <div className="carousel-box">
             <div className="carousel-text">
               <div className="carousel-comment">{comment}</div>
