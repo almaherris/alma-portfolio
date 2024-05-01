@@ -48,8 +48,8 @@
 
 @media (min-width: 1025px) {
   .intro {
-    padding: 0;
     margin: 0;
+    padding: 0 0 0 50px;
   }
 
   .mobile-profpic {
@@ -58,9 +58,8 @@
 
   .desktop-parent {
     display: grid;
-    grid-template-columns: 55% 40% 5%;
+    grid-template-columns: 65% 30% 5%;
   }
-
 
   .desktop-middle {
     display: block;
@@ -73,5 +72,10 @@
   .desktop-right {
     display: block;
     background-color: var(--color-2);
+  }
+
+  .intro-text-container {
+    text-align: left;
+    margin-right: 200px;
   }
 }
