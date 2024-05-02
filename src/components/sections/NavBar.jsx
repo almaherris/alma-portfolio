@@ -27,11 +27,6 @@ export const NavBar = () => {
       <div className={`dropdown-menu ${showMenu ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#intro" onClick={closeMenu}>
-              About
-            </a>
-          </li>
-          <li>
             <a href="#projects" onClick={closeMenu}>
               Projects
             </a>
@@ -39,6 +34,11 @@ export const NavBar = () => {
           <li>
             <a href="#skills" onClick={closeMenu}>
               Skills
+            </a>
+          </li>
+          <li>
+            <a href="#feedback" onClick={closeMenu}>
+              References
             </a>
           </li>
           <li>
