@@ -1,5 +1,4 @@
 import { ProjectCard } from "../reusable/ProjectCard"
-import "./Projects.css"
 
 export const Projects = () => {
   return (

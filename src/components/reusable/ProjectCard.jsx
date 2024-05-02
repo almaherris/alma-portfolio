@@ -3,6 +3,7 @@ import { IoGlobeOutline } from "react-icons/io5"
 import { FaGithub } from "react-icons/fa"
 import { Tags } from "./Tags"
 import { Button } from "./Buttons"
+import "./ProjectCard.css"
 
 export const ProjectCard = () => {
   return (
