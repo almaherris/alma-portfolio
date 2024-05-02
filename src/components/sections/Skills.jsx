@@ -1,5 +1,5 @@
 import "./Skills.css"
-import myCV from "../../assets/my-cv.pdf"
+import myCV from "../../assets/AlmaHerrstrom_CV.pdf"
 
 export const Skills = () => {
   const downloadPdf = () => {
