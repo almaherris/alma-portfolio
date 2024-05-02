@@ -1,17 +1,13 @@
 import "./SoMe.css"
 
-import {
-  FaLinkedinIn,
-  FaGithub,
-  FaInstagram,
-} from "react-icons/fa"
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa"
 import "./SoMe.css"
 
 export const SoMe = () => {
   return (
     <div className="contact-icons">
       <a
-        href="https://www.linkedin.com/in/alma-herrstr%C3%B6m-85a840111/"
+        href="https://www.linkedin.com/in/almaherrstrom/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="link to my linkedin">
