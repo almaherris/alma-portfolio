@@ -10,6 +10,11 @@
   border-radius: 30px;
   background-color: white;
   max-width: 340px;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .project-photo {

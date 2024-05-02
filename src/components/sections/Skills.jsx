@@ -17,33 +17,35 @@ export const Skills = () => {
             <li>CSS3</li>
             <li>Javascript ES6</li>
             <li>ReactJS</li>
+            <li>NodeJS</li>
+            <li>RESTful API</li>
           </ul>
         </div>
         <div className="skill-card">
           <h3 className="toolbox-title">Toolbox</h3>
           <ul>
             <li>Postman</li>
-            <li>Figma</li>
-            <li>Styled Components</li>
-            <li>RESTful API</li>
+            <li>Tailwind CSS</li>
             <li>GitHub</li>
-          </ul>
-        </div>
-        <div className="skill-card">
-          <h3 className="upcoming-title">Upcoming</h3>
-          <ul>
-            <li>NodeJS</li>
-            <li>MongoDB</li>
-            <li>Express</li>
+            <li>VS Code</li>
+            <li>Figma</li>
           </ul>
         </div>
         <div className="skill-card">
           <h3 className="more-title">More</h3>
           <ul>
             <li>Agile Methodology</li>
-            <li>Pair Programming</li>
+            <li>Mob Programming</li>
             <li>Responsive Design</li>
+            <li>Version Control</li>
             <li>Web Accessibility</li>
+          </ul>
+        </div>
+        <div className="skill-card">
+          <h3 className="upcoming-title">Upcoming</h3>
+          <ul>
+            <li>MongoDB</li>
+            <li>Python</li>
           </ul>
         </div>
       </div>

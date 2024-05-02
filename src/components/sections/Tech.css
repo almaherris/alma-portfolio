@@ -1,0 +1,32 @@
+.tech p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tech {
+    padding: 70px 50px;
+  }
+
+@media (min-width: 768px) {
+  .tech {
+    padding: 180px;
+  }
+
+  .tech p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .tech {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tech p {
+    text-align: left;
+    margin-left: 124px;
+    width: 400px;
+    font-size: 24px;
+  }
+}
