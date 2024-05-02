@@ -15,7 +15,7 @@ export const Intro = () => {
       <div className="desktop-parent">
         <div className="section desktop-left">
           <div className="intro-text-container">
-            <h1 className="title">Frontend developer</h1>
+            <h1 className="headline">Frontend developer</h1>
             <p className="intro-text">
               With a background in financial audit and a new-found passion for
               web development, I&apos;m currently in a fast-paced boot camp
@@ -30,11 +30,13 @@ export const Intro = () => {
           </a>
         </div>
         <div className="section desktop-middle">
-          <img src="/profilepic-L.png" alt="profile picture for desktop" />
+          <img
+            className="profilepic-L"
+            src="/profilepic-L.JPG"
+            alt="profile picture for desktop"
+          />
         </div>
-        <div className="section desktop-right">
-          This is supposed to be on the right side
-        </div>
+        <div className="section desktop-right" />
       </div>
     </div>
   )

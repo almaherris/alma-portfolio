@@ -59,7 +59,8 @@
 
 @media (min-width: 1025px) {
   .navbar {
-    background-color: var(--color-1);
+    background-color: transparent;
+    position: absolute;
   }
 
   .mobile-menu-icon,

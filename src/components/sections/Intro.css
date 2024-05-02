@@ -3,6 +3,12 @@
   background-color: var(--color-1);
 }
 
+.headline {
+  text-align: center;
+  font-size: 40px;
+  margin: 15px 0 30px 0;
+}
+
 .mobile-profpic {
   display: flex;
   justify-content: center;
@@ -44,12 +50,21 @@
   .intro {
     padding: 50px 120px;
   }
+  .headline {
+    font-size: 48px;
+  }
 }
 
 @media (min-width: 1025px) {
   .intro {
     margin: 0;
-    padding: 0 0 0 50px;
+    padding: 0;
+  }
+
+  .headline {
+    text-align: left;
+    padding-left: 8px;
+    border-left: 5px solid var(--color-2);
   }
 
   .mobile-profpic {
@@ -61,17 +76,25 @@
     grid-template-columns: 65% 30% 5%;
   }
 
-  .desktop-middle {
-    display: block;
+  .desktop-left {
+    padding-top: 70px;
+    width: 100%;
   }
 
-  .desktop-left img {
-    object-fit: cover;
+  .desktop-middle {
+    display: block;
+    width: 100%;
+  }
+
+  .profilepic-L {
+    height: 700px;
+    width: auto;
   }
 
   .desktop-right {
     display: block;
     background-color: var(--color-2);
+    width: 100%;
   }
 
   .intro-text-container {
