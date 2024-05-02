@@ -102,8 +102,8 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
-    top: 0; /* Align to the top of desktop-middle */
-    left: 0; /* Align to the left of desktop-middle */
+    top: 0;
+    left: 0;
   }
 
   .intro-text-container {

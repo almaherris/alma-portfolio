@@ -1,4 +1,5 @@
 import { CarouselComponent } from "./CarouselComponent"
+import "./Feedback.css"
 
 export const Feedback = () => {
   return (
