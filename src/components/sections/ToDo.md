@@ -1,4 +1,3 @@
 - Toggle dark/light mode
 - Toggle french/swedish/English
 - Update CV
-- Project cards redesign
