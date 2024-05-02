@@ -21,6 +21,11 @@
   animation: moveUpDown 2s linear infinite;
 }
 
+.some-contact {
+  color: var(--color-5);
+  margin-top: 50px;
+}
+
 @keyframes moveUpDown {
   0%,
   100% {

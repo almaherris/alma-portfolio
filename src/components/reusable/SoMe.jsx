@@ -3,7 +3,6 @@ import "./SoMe.css"
 import {
   FaLinkedinIn,
   FaGithub,
-  FaStackOverflow,
   FaInstagram,
 } from "react-icons/fa"
 import "./SoMe.css"
@@ -24,13 +23,6 @@ export const SoMe = () => {
         rel="noopener noreferrer"
         aria-label="link to my github">
         <FaGithub />
-      </a>
-      <a
-        href="https://stackoverflow.com/users/22531351/almahe"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="link to my stackoverflow">
-        <FaStackOverflow />
       </a>
       <a
         href="https://www.instagram.com/almaherrstrom/"

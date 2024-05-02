@@ -2,12 +2,10 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 50px;
-  color: var(--color-5);
   font-size: 25px;
 }
 
 .contact-icons a:hover {
-  color: black;
+  color: var(--color-3);
   transition: 0.75s;
 }

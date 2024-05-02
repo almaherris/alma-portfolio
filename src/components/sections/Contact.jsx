@@ -21,8 +21,7 @@ export const Contact = () => {
           <p>Available worldwide</p>
         </div>
       </div>
-
-      <div className="some-icons">
+      <div className="some-contact">
         <SoMe />
       </div>
       <div className="up-btn-container">

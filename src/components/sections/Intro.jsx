@@ -1,4 +1,5 @@
 import { IoArrowDown } from "react-icons/io5"
+import { SoMe } from "../reusable/SoMe"
 import "./Intro.css"
 
 export const Intro = () => {
@@ -35,6 +36,13 @@ export const Intro = () => {
             src="/profilepic-L.JPG"
             alt="profile picture for desktop"
           />
+          <div className="img-text-div">
+            <p className="img-text">Alma Herrström</p>
+            <p className="img-text">Stockholm based</p>
+            <div className="some-intro">
+              <SoMe />
+            </div>
+          </div>
         </div>
         <div className="section desktop-right" />
       </div>
