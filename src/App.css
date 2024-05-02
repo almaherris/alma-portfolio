@@ -9,13 +9,17 @@
   --p-font: "Krub", sans-serif;
 }
 
-.skills {
-  padding: 25px;
-  background-color: var(--color-1);
-}
-
 .projects {
   padding: 25px 25px 50px 25px;
+  background-color: var(--color-1);
+}
+.skills {
+  padding: 25px;
+  background-color: white;
+}
+
+.feedback {
+  padding: 80px 25px;
   background-color: var(--color-1);
 }
 
