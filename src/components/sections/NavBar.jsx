@@ -43,7 +43,7 @@ export const NavBar = () => {
           </li>
           <li>
             <a href="#feedback" onClick={closeMenu}>
-              References
+              Testimonials
             </a>
           </li>
           <li>
