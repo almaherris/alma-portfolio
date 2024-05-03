@@ -1,4 +1,4 @@
-import projects from "../../json/projects.json"
+import projectsEn from "../../json/projects/projects.en.json"
 import { IoGlobeOutline } from "react-icons/io5"
 import { FaGithub } from "react-icons/fa"
 import { Tags } from "./Tags"
@@ -8,7 +8,7 @@ import "./ProjectCard.css"
 export const ProjectCard = () => {
   return (
     <div className="project-card">
-      {projects.projects.map(
+      {projectsEn.projects.map(
         ({ id, name, description, tags, image, netlify_url, github_url }) => {
           return (
             <div className="project-item" key={id}>

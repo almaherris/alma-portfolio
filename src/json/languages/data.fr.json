@@ -1,0 +1,112 @@
+{
+    "navbar": {
+        "tech": "Tech",
+        "projects": "Projects",
+        "skills": "Skills",
+        "feedback": "Testimonials",
+        "contact": "Contact"
+    },
+
+    "intro": {
+        "headline": "Frontend developer",
+        "text": "With a background in financial audit and a new-found passion for web development, I'm currently in a fast-paced boot camp learning tools like React, Node.js and Express. I'm blending my attention to detail and problem-solving skills to create user-friendly digital experiences.",
+        "linkText": "See my projects",
+        "location": "Stockholm based"
+    },
+
+    "tech": {
+        "title": "Tech"
+    },
+
+    "projects": {
+        "title": "Projects"
+        
+    },
+
+    "skills": {
+        "title": "Skills",
+        "categories": [
+          {
+            "title": "Code",
+            "skills": [
+              "HTML5",
+              "CSS3",
+              "Javascript ES6",
+              "ReactJS",
+              "NodeJS",
+              "RESTful API"
+            ]
+          },
+          {
+            "title": "Toolbox",
+            "skills": [
+              "Postman",
+              "Tailwind CSS",
+              "GitHub",
+              "VS Code",
+              "Figma"
+            ]
+          },
+          {
+            "title": "More",
+            "skills": [
+              "Agile Methodology",
+              "Mob Programming",
+              "Responsive Design",
+              "Version Control",
+              "Web Accessibility"
+            ]
+          },
+          {
+            "title": "Upcoming",
+            "skills": [
+              "MongoDB",
+              "Python"
+            ]
+          }
+        ],
+        "cta": "Download CV"
+      },
+
+    "feedback": {
+        "title": "Testimonials",
+        "snapshot": [
+            {
+              "id": 1,
+              "comment": "I can trust Alma to get things done on time and at high quality. She understands the assignments given to her, asks questions when relevant and delivers a high quality product. I am very happy to have Alma on my team.",  
+              "sender": "Senior manager",
+              "date": "2023"
+            },
+            {
+              "id": 2,
+              "comment": "Alma has been doing a great job of coordinating this project. She is very proactive and this ensures that everything moves smoothly. She also performed a good hand-over of her work to the junior taking over this section with continued support when needed which also shows that she is a good team player.",  
+              "sender": "Manager",
+              "date": "2024"
+            },
+            {
+              "id": 3,
+              "comment": "It is always an extreme pleasure to work with Alma and you can always trust the work performed and reviewed by her.",  
+              "sender": "Assistant manager",
+              "date": "2023"
+            },
+            {
+              "id": 4,
+              "comment": "It has been great working with Alma and seeing her develop over the year. She is a key person on our team and carries a lot of responsibility. She also speaks up when she needs to and that is appreciated by the rest of the team. Alma is also very positive and has a good impact on our team culture. We need more Alma's at this company.",  
+              "sender": "Manager",
+              "date": "2023"
+            },
+            {
+              "id": 5,
+              "comment": "Alma has been coaching and guiding our new team members and has done an excellent job at performing a detailed review of the assistants' work. She takes pride in her work and is always eager to learn new things. I am extremely grateful to have her as a part of the team.",  
+              "sender": "Senior manager",
+              "date": "2022"
+            }
+          ]
+    },
+
+    "contact": {
+        "title": "Contact",
+        "location1": "Based in Stockholm",
+        "location2": "Available worldwide"
+    }
+}

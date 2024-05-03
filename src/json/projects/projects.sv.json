@@ -1,0 +1,103 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Happy Thoughts",
+      "image": "/happythoughts.png",
+      "description": "A React project focused on state management, API interactions for fetching and posting data. Features include a design-aligned UI, like count for each thought, a form for new thoughts, and a like functionality.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "APIs"
+      ],
+      "netlify_url": "https://happythoughts-app.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
+    },
+    {
+      "id": 2,
+      "name": "Weather App",
+      "image": "/weatherapp.png",
+      "description": "A weather app fetching weather data from OpenWeatherMap API. Key features include presenting weather data, functionalities such as displaying current weather, sunrise/sunset times, 5-day forecast and a search function for different cities.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "netlify_url": "https://clear-skies-ahead.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-weather-app"
+    },
+    {
+      "id": 3,
+      "name": "Music Releases",
+      "image": "/musicproject.png",
+      "description": "A React app template to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "netlify_url": "https://musicreleaseproject-react.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-music-releases-vite"
+    },
+    {
+      "id": 4,
+      "name": "Chatbot",
+      "image": "/chatbot.png",
+      "description": "A chatbot developed with JavaScript, focusing on user input handling. A structured conversational flow was implemented, along with conditional responses for invalid inputs.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "netlify_url": "https://valentinescafe.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-chatbot"
+    },
+    {
+      "id": 5,
+      "name": "Survey",
+      "image": "/survey.png",
+      "description": "A React project to create a customizable survey form. Focus on React state and form control. After submission, users see a summary. Followed a given design in Figma and prioritised accessibility using Google Lighthouse.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "netlify_url": "https://surprise-holiday.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-survey-vite"
+    },
+    {
+      "id": 6,
+      "name": "To Do App",
+      "image": "/todo.png",
+      "description": "Create a todo app utilizing the Context API, allowing users to add, list, and remove tasks while ensuring a clean design. Build components, manage state with Context and implement features such as adding tasks and customizing checkboxes.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "netlify_url": "https://avocado-todo.netlify.app",
+      "github_url": "https://github.com/almaherris/project-todos-context-vite"
+    },
+    {
+      "id": 7,
+      "name": "Movie Collection",
+      "image": "/movies.png",
+      "description": "Movie library with data fetched from themoviedb.org's API. Features include display movie list, rendering movie specifics, and managing image URLs. Enhancements include error handling, loading states, and dynamic movie lists.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "APIs"
+      ],
+      "netlify_url": "https://movies-reactrouter.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-movies-vite"
+    }
+  ]
+}

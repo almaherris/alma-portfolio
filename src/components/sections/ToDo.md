@@ -1,2 +1,3 @@
 - Toggle dark/light mode
 - Toggle french/swedish/English
+- og tags

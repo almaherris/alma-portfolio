@@ -25,7 +25,7 @@ export const Contact = () => {
         <SoMe />
       </div>
       <div className="up-btn-container">
-        <button className="up-button" onClick={scrollToIntro}>
+        <button aria-label="jump back up to intro section" className="up-button" onClick={scrollToIntro}>
           <FaArrowUp />
         </button>
       </div>

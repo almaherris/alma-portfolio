@@ -20,7 +20,7 @@ export const Intro = () => {
             <p className="intro-text">
               With a background in financial audit and a new-found passion for
               web development, I&apos;m currently in a fast-paced boot camp
-              learning tools like React, Node.js and Express, I&apos;m blending
+              learning tools like React, Node.js and Express. I&apos;m blending
               my attention to detail and problem-solving skills to create
               user-friendly digital experiences.
             </p>
