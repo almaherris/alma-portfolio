@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { RiCloseLine, RiMenuLine } from "react-icons/ri"
+import { useLanguageData } from "../../hooks/useLanguageData"
 import "./NavBar.css"
 
 export const NavBar = () => {
@@ -12,6 +13,8 @@ export const NavBar = () => {
   const closeMenu = () => {
     setShowMenu(false)
   }
+
+  const data = useLanguageData()
 
   return (
     <nav className="navbar">
@@ -28,27 +31,27 @@ export const NavBar = () => {
         <ul>
           <li>
             <a href="#tech" onClick={closeMenu}>
-              Tech
+              {data.navbar.tech}
             </a>
           </li>
           <li>
             <a href="#projects" onClick={closeMenu}>
-              Projects
+              {data.navbar.projects}
             </a>
           </li>
           <li>
             <a href="#skills" onClick={closeMenu}>
-              Skills
+              {data.navbar.skills}
             </a>
           </li>
           <li>
             <a href="#feedback" onClick={closeMenu}>
-              Testimonials
+              {data.navbar.feedback}
             </a>
           </li>
           <li>
             <a href="#contact" onClick={closeMenu}>
-              Contact
+              {data.navbar.contact}
             </a>
           </li>
         </ul>

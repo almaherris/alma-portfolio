@@ -1,3 +1,4 @@
+import { LanguageProvider } from "./contexts/LanguageContext"
 import { NavBar } from "./components/sections/NavBar"
 import { Intro } from "./components/sections/Intro"
 import { Tech } from "./components/sections/Tech"
@@ -10,7 +11,7 @@ import "./App.css"
 
 export const App = () => {
   return (
-    <>
+    <LanguageProvider>
       <NavBar />
       <div className="app-container">
         <Intro />
@@ -21,6 +22,6 @@ export const App = () => {
         <Contact />
       </div>
       <Banner />
-    </>
+    </LanguageProvider>
   )
 }

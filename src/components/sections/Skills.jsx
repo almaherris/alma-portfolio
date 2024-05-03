@@ -1,3 +1,4 @@
+import { useLanguageData } from "../../hooks/useLanguageData"
 import "./Skills.css"
 import myCV from "../../assets/AlmaHerrstrom_CV.pdf"
 
@@ -6,9 +7,11 @@ export const Skills = () => {
     window.open(myCV)
   }
 
+  const data = useLanguageData()
+
   return (
     <div className="skills" id="skills">
-      <h2 className="title">Skills</h2>
+      <h2 className="title">{data.skills.title}</h2>
       <div className="skill-container">
         <div className="skill-card">
           <h3 className="code-title">Code</h3>
@@ -55,7 +58,7 @@ export const Skills = () => {
           onClick={downloadPdf}
           className="download-button"
           value="download">
-          Download CV
+          {data.skills.cta}
         </button>
       </div>
     </div>

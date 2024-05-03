@@ -1,5 +1,6 @@
 import { IoArrowDown } from "react-icons/io5"
 import { SoMe } from "../reusable/SoMe"
+import { useLanguageData } from "../../hooks/useLanguageData"
 import "./Intro.css"
 
 export const Intro = () => {
@@ -7,6 +8,8 @@ export const Intro = () => {
     const projectSection = document.getElementById("projects")
     projectSection.scrollIntoView({ behavior: "smooth" })
   }
+
+  const data = useLanguageData()
 
   return (
     <div className="intro" id="intro">
@@ -16,18 +19,12 @@ export const Intro = () => {
       <div className="desktop-parent">
         <div className="section desktop-left">
           <div className="intro-text-container">
-            <h1 className="headline">Frontend developer</h1>
-            <p className="intro-text">
-              With a background in financial audit and a new-found passion for
-              web development, I&apos;m currently in a fast-paced boot camp
-              learning tools like React, Node.js and Express. I&apos;m blending
-              my attention to detail and problem-solving skills to create
-              user-friendly digital experiences.
-            </p>
+            <h1 className="headline">{data.intro.headline}</h1>
+            <p className="intro-text">{data.intro.text}</p>
           </div>
 
           <a className="intro-link" onClick={scrollToProjectSection}>
-            See my projects <IoArrowDown className="intro-icon" />
+            {data.intro.linkText} <IoArrowDown className="intro-icon" />
           </a>
         </div>
         <div className="section desktop-middle">
@@ -38,7 +35,7 @@ export const Intro = () => {
           />
           <div className="img-text-div">
             <p className="img-text">Alma Herrström</p>
-            <p className="img-text">Stockholm based</p>
+            <p className="img-text">{data.intro.location}</p>
             <div className="some-intro">
               <SoMe />
             </div>
