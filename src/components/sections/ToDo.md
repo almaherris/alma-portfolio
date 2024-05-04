@@ -1,3 +1,4 @@
 - Toggle dark/light mode
-- Toggle french/swedish/English
 - og tags
+- make sure projects are there
+- add more projects?
