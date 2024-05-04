@@ -4,27 +4,27 @@
       "id": 1,
       "name": "Happy Thoughts",
       "image": "/happythoughts.png",
-      "description": "A React project focused on state management, API interactions for fetching and posting data. Features include a design-aligned UI, like count for each thought, a form for new thoughts, and a like functionality.",
+      "description": "Ett React-projekt fokuserat på state management, API-interaktioner för att hämta och posta data. Funktioner inkluderar bl.a. designanpassad UI, en räknare för antal gillningar, en textformulär för att posta nya tankar.",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
         "React",
-        "APIs"
+        "APIer"
       ],
       "netlify_url": "https://happythoughts-app.netlify.app/",
       "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
     },
     {
       "id": 2,
-      "name": "Weather App",
+      "name": "Väderapp",
       "image": "/weatherapp.png",
-      "description": "A weather app fetching weather data from OpenWeatherMap API. Key features include presenting weather data, functionalities such as displaying current weather, sunrise/sunset times, 5-day forecast and a search function for different cities.",
+      "description": "En väderapp som hämtar väderdata från OpenWeatherMap API. Appen inkluderar presentation av väderdata, funktioner som visning av aktuellt väder, tider för soluppgång/solnedgång, 5-dagarsprognos och en sökfunktion för olika städer.",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
-        "APIs"
+        "APIer"
       ],
       "netlify_url": "https://clear-skies-ahead.netlify.app/",
       "github_url": "https://github.com/almaherris/project-weather-app"
@@ -33,7 +33,7 @@
       "id": 3,
       "name": "Music Releases",
       "image": "/musicproject.png",
-      "description": "A React app template to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
+      "description": "En React-app för att visa albumsläpp. Funktioner inkluderar en strukturerad komponenthierarki och följa en given design med responsiv layout. Att klicka på album eller artister länkar till externa webbadresser. Fokus ligger på dataflöde och UI-interaktioner.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -47,7 +47,7 @@
       "id": 4,
       "name": "Chatbot",
       "image": "/chatbot.png",
-      "description": "A chatbot developed with JavaScript, focusing on user input handling. A structured conversational flow was implemented, along with conditional responses for invalid inputs.",
+      "description": "En chatbot utvecklad med JavaScript, med fokus på hantering av användar-input. Ett strukturerat samtalsflöde implementerades, tillsammans med villkorade svar för ogiltiga indata.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -60,7 +60,7 @@
       "id": 5,
       "name": "Survey",
       "image": "/survey.png",
-      "description": "A React project to create a customizable survey form. Focus on React state and form control. After submission, users see a summary. Followed a given design in Figma and prioritised accessibility using Google Lighthouse.",
+      "description": "Ett React-projekt för att skapa ett enkätformulär. Fokus på React useState och formulärkontroll. Efter inlämning ser användarna en sammanfattning av sina svar. Följde en given design i Figma och säkerställde tillgänglighet med Google Lighthouse.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -94,7 +94,7 @@
         "CSS3",
         "JavaScript",
         "React",
-        "APIs"
+        "APIer"
       ],
       "netlify_url": "https://movies-reactrouter.netlify.app/",
       "github_url": "https://github.com/almaherris/project-movies-vite"

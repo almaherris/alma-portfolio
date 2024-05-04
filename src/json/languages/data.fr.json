@@ -1,17 +1,17 @@
 {
     "navbar": {
         "tech": "Tech",
-        "projects": "Projects",
-        "skills": "Skills",
-        "feedback": "Testimonials",
+        "projects": "Projets",
+        "skills": "Aptitudes",
+        "feedback": "References",
         "contact": "Contact"
     },
 
     "intro": {
         "headline": "Frontend developer",
         "text": "With a background in financial audit and a new-found passion for web development, I'm currently in a fast-paced boot camp learning tools like React, Node.js and Express. I'm blending my attention to detail and problem-solving skills to create user-friendly digital experiences.",
-        "linkText": "See my projects",
-        "location": "Stockholm based"
+        "linkText": "Voir mes projets",
+        "location": "Basée à Stockholm"
     },
 
     "tech": {
@@ -19,12 +19,13 @@
     },
 
     "projects": {
-        "title": "Projects"
-        
+        "title": "Projets",
+        "netlifyBtn": "Live demo",
+        "githubBtn": "Voir le code"
     },
 
     "skills": {
-        "title": "Skills",
+        "title": "Aptitudes",
         "categories": [
           {
             "title": "Code",
@@ -44,7 +45,8 @@
               "Tailwind CSS",
               "GitHub",
               "VS Code",
-              "Figma"
+              "Figma",
+              "Google Lighthouse"
             ]
           },
           {
@@ -69,7 +71,7 @@
       },
 
     "feedback": {
-        "title": "Testimonials",
+        "title": "References",
         "snapshot": [
             {
               "id": 1,
@@ -106,7 +108,7 @@
 
     "contact": {
         "title": "Contact",
-        "location1": "Based in Stockholm",
-        "location2": "Available worldwide"
+        "location1": "Basée à Stockholm",
+        "location2": "Desponible en télétravail"
     }
 }

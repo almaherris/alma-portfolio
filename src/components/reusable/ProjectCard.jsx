@@ -3,9 +3,12 @@ import { IoGlobeOutline } from "react-icons/io5"
 import { FaGithub } from "react-icons/fa"
 import { Tags } from "./Tags"
 import { Button } from "./Buttons"
+import { useLanguageData } from "../../hooks/useLanguageData"
 import "./ProjectCard.css"
 
 export const ProjectCard = () => {
+  const data = useLanguageData()
+
   return (
     <div className="project-card">
       {projectsEn.projects.map(
@@ -29,13 +32,13 @@ export const ProjectCard = () => {
                     url={netlify_url}
                     className="link-button-netlify"
                     icon={<IoGlobeOutline className="button-icon-project" />}
-                    text="Live demo"
+                    text={data.projects.netlifyBtn}
                   />
                   <Button
                     url={github_url}
                     className="link-button-github"
                     icon={<FaGithub className="button-icon-project" />}
-                    text="View the code"
+                    text={data.projects.githubBtn}
                   />
                 </div>
               </div>

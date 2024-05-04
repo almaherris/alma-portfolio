@@ -33,7 +33,7 @@
       "id": 3,
       "name": "Music Releases",
       "image": "/musicproject.png",
-      "description": "A React app template to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
+      "description": "A React app to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
       "tags": [
         "HTML5",
         "CSS3",

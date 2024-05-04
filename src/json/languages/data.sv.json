@@ -19,7 +19,9 @@
     },
 
     "projects": {
-        "title": "Projekt"
+        "title": "Projekt",
+        "netlifyBtn": "Besök hemsida",
+        "githubBtn": "Se kod"
         
     },
 
@@ -44,11 +46,12 @@
               "Tailwind CSS",
               "GitHub",
               "VS Code",
-              "Figma"
+              "Figma",
+              "Google Lighthouse"
             ]
           },
           {
-            "title": "Andra färdigheter",
+            "title": "Annat",
             "skills": [
               "Agil metodik",
               "Mob-programmering",

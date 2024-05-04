@@ -19,8 +19,9 @@
     },
 
     "projects": {
-        "title": "Projects"
-        
+        "title": "Projects",
+        "netlifyBtn": "Live demo",
+        "githubBtn": "View the code"
     },
 
     "skills": {
@@ -44,7 +45,8 @@
               "Tailwind CSS",
               "GitHub",
               "VS Code",
-              "Figma"
+              "Figma",
+              "Google Lighthouse"
             ]
           },
           {
