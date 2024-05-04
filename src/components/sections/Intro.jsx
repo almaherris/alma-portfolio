@@ -3,6 +3,7 @@ import { SoMe } from "../reusable/SoMe"
 import { useLanguageData } from "../../hooks/useLanguageData"
 
 import "./Intro.css"
+import { LanguageSelector } from "../reusable/LanguageSelector"
 
 export const Intro = () => {
   const scrollToProjectSection = () => {
@@ -14,6 +15,9 @@ export const Intro = () => {
 
   return (
     <div className="intro" id="intro">
+      <div className="language-selector-mobile">
+        <LanguageSelector />
+      </div>
       <div className="mobile-profpic">
         <img src="/profilepic-S.png" alt="profile picture for mobile" />
       </div>
@@ -43,11 +47,9 @@ export const Intro = () => {
           </div>
         </div>
         <div className="section desktop-right">
-          <select name="language-selector" id="language">
-            <option value="en">EN</option>
-            <option value="sv">SV</option>
-            <option value="fr">FR</option>
-          </select>
+          <div className="language-selector-desktop">
+            <LanguageSelector />
+          </div>
         </div>
       </div>
     </div>

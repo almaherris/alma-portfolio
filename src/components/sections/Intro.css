@@ -46,6 +46,14 @@
   display: none;
 }
 
+.language-selector-desktop {
+  display: none;
+}
+
+.language-selector-mobile {
+  text-align: right;
+}
+
 @media (min-width: 768px) {
   .intro {
     padding: 50px 120px;
@@ -100,6 +108,8 @@
   .desktop-right {
     flex: 0 0 5%;
     background-color: var(--color-2);
+    display: flex;
+    justify-content: center;
   }
 
   .profilepic-L {
@@ -130,5 +140,13 @@
 
   .some-intro {
     margin-top: 20px;
+  }
+
+  .language-selector-mobile {
+    display: none;
+  }
+  .language-selector-desktop {
+    display: block;
+    margin-top: 10px;
   }
 }
