@@ -74,7 +74,7 @@
       "id": 6,
       "name": "To Do App",
       "image": "/todo.png",
-      "description": "Create a todo app utilizing the Context API, allowing users to add, list, and remove tasks while ensuring a clean design. Build components, manage state with Context and implement features such as adding tasks and customizing checkboxes.",
+      "description": "Skapa en to-do-app med Context API. Användare kan lägga till, lista och ta bort uppgifter. Inkluderar komponenthierarki och global state management.",
       "tags": [
         "HTML5",
         "CSS3",
