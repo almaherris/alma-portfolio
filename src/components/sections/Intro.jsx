@@ -1,6 +1,7 @@
 import { IoArrowDown } from "react-icons/io5"
 import { SoMe } from "../reusable/SoMe"
 import { useLanguageData } from "../../hooks/useLanguageData"
+
 import "./Intro.css"
 
 export const Intro = () => {
@@ -41,7 +42,13 @@ export const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="section desktop-right" />
+        <div className="section desktop-right">
+          <select name="language-selector" id="language">
+            <option value="en">EN</option>
+            <option value="sv">SV</option>
+            <option value="fr">FR</option>
+          </select>
+        </div>
       </div>
     </div>
   )
