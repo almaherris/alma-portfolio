@@ -1,117 +1,113 @@
 {
-    "navbar": {
-        "tech": "Tech",
-        "projects": "Projekt",
-        "skills": "Färdigheter",
-        "feedback": "Referenser",
-        "contact": "Kontakt"
-    },
+  "navbar": {
+    "tech": "Tech",
+    "projects": "Projekt",
+    "skills": "Färdigheter",
+    "feedback": "Referenser",
+    "contact": "Kontakt"
+  },
 
-    "intro": {
-        "headline": "Frontend developer",
-        "text": "Med en bakgrund inom finansiell revision och en nyfunnen passion för webbutveckling tar jag just nu en intensivkurs där jag lär mig verktyg som React, Node och Mongo. Jag blandar mitt öga för detaljer med min färdighet att lösa problem för att skapa användarvänliga digitala upplevelser.",
-        "linkText": "Se mina projekt",
-        "location": "Baserad i Stockholm"
-    },
+  "intro": {
+    "headline": "Frontend developer",
+    "text": "Med en bakgrund inom finansiell revision och en nyfunnen passion för webbutveckling tar jag just nu en intensivkurs där jag lär mig verktyg som React, Node och Mongo. Jag blandar mitt öga för detaljer med min färdighet att lösa problem för att skapa användarvänliga digitala upplevelser.",
+    "linkText": "Se mina projekt",
+    "location": "Baserad i Stockholm"
+  },
 
-    "tech": {
-        "title": "Tech"
-    },
+  "tech": {
+    "title": "Tech"
+  },
 
-    "projects": {
-        "title": "Projekt",
-        "netlifyBtn": "Besök hemsida",
-        "githubBtn": "Se kod"
-        
-    },
+  "projects": {
+    "title": "Projekt",
+    "netlifyBtn": "Besök hemsida",
+    "githubBtn": "Se kod"
+  },
 
-    "skills": {
-        "title": "Färdigheter",
-        "categories": [
-          {
-            "title": "Programmering",
-            "skills": [
-              "HTML5",
-              "CSS3",
-              "Tailwind CSS",
-              "Javascript ES6",
-              "ReactJS",
-              "NodeJS",
-              "ExpressJS"
-            ]
-          },
-          {
-            "title": "Verktyg",
-            "skills": [
-              "Postman",
-              "GitHub",
-              "VS Code",
-              "Figma",
-              "RESTful API",
-              "Google Lighthouse"
-            ]
-          },
-          {
-            "title": "Annat",
-            "skills": [
-              "Agil metodik",
-              "Mob-programmering",
-              "Responsiv design",
-              "Versionshantering",
-              "Digital tillgänglighet",
-              "Code review"
-            ]
-          },
-          {
-            "title": "Kommande",
-            "skills": [
-              "MongoDB",
-              "Python"
-            ]
-          }
-        ],
-        "cta": "Ladda ner CV"
+  "skills": {
+    "title": "Färdigheter",
+    "categories": [
+      {
+        "title": "Programmering",
+        "skills": [
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "Javascript ES6",
+          "ReactJS",
+          "NodeJS",
+          "ExpressJS"
+        ]
       },
+      {
+        "title": "Verktyg",
+        "skills": [
+          "Postman",
+          "GitHub",
+          "VS Code",
+          "Figma",
+          "RESTful API",
+          "Google Lighthouse"
+        ]
+      },
+      {
+        "title": "Annat",
+        "skills": [
+          "Agil metodik",
+          "Mob-programmering",
+          "Responsiv design",
+          "Versionshantering",
+          "Digital tillgänglighet",
+          "Code review"
+        ]
+      },
+      {
+        "title": "Kommande",
+        "skills": ["MongoDB", "Python"]
+      }
+    ],
+    "cta": "Ladda ner CV"
+  },
 
-    "feedback": {
-        "title": "Referenser",
-        "snapshot": [
-            {
-              "id": 1,
-              "comment": "Jag kan lita på att Alma får saker gjorda i tid och med hög kvalitet. Hon förstår de uppgifter som ges till henne, ställer frågor när det är relevant och levererar en produkt av hög kvalitet. Jag är mycket glad över att ha Alma i mitt team.",  
-              "sender": "Senior manager",
-              "date": "2023"
-            },
-            {
-              "id": 2,
-              "comment": "Alma har gjort ett bra jobb med att koordinera detta projekt. Hon är mycket proaktiv och detta säkerställer att allt går smidigt. Hon gjorde också en bra överlämning av sitt arbete till junioren som tog över denna sektion med fortsatt stöd när det behövs vilket också visar att hon är en bra lagspelare.",  
-              "sender": "Manager",
-              "date": "2024"
-            },
-            {
-              "id": 3,
-              "comment": "Det är alltid ett extremt nöje att arbeta med Alma och jag kan alltid lita på det arbete som utförs och granskas av henne.",  
-              "sender": "Assistant manager",
-              "date": "2023"
-            },
-            {
-              "id": 4,
-              "comment": "Det har varit fantastiskt att jobba med Alma och se henne utvecklas under året. Hon är en nyckelperson i vårt team och har ett stort ansvar. Hon säger också till när hon behöver och det uppskattas av teamet. Alma är också mycket positiv och har en bra inverkan på vår teamkultur. Vi behöver fler Alma på det här företaget.",  
-              "sender": "Manager",
-              "date": "2023"
-            },
-            {
-              "id": 5,
-              "comment": "Alma har coachat och väglett våra nya teammedlemmar och har gjort ett utmärkt jobb med att utföra en detaljerad review av assistenternas arbete. Hon är stolt över sitt arbete och är alltid angelägen om att lära sig nya saker. Jag är extremt tacksam över att ha henne som en del av teamet.",  
-              "sender": "Senior manager",
-              "date": "2022"
-            }
-          ]
-    },
+  "feedback": {
+    "title": "Referenser",
+    "snapshot": [
+      {
+        "id": 1,
+        "comment": "Jag kan lita på att Alma får saker gjorda i tid och med hög kvalitet. Hon förstår de uppgifter som ges till henne, ställer frågor när det är relevant och levererar en produkt av hög kvalitet. Jag är mycket glad över att ha Alma i mitt team.",
+        "sender": "Senior manager",
+        "date": "2023"
+      },
+      {
+        "id": 2,
+        "comment": "Alma har gjort ett bra jobb med att koordinera detta projekt. Hon är mycket proaktiv och detta säkerställer att allt går smidigt. Hon gjorde också en bra överlämning av sitt arbete till junioren som tog över denna sektion med fortsatt stöd när det behövs vilket också visar att hon är en bra lagspelare.",
+        "sender": "Manager",
+        "date": "2024"
+      },
+      {
+        "id": 3,
+        "comment": "Det är alltid ett extremt nöje att arbeta med Alma och jag kan alltid lita på det arbete som utförs och granskas av henne.",
+        "sender": "Assistant manager",
+        "date": "2023"
+      },
+      {
+        "id": 4,
+        "comment": "Det har varit fantastiskt att jobba med Alma och se henne utvecklas under året. Hon är en nyckelperson i vårt team och har ett stort ansvar. Hon säger också till när hon behöver och det uppskattas av teamet. Alma är också mycket positiv och har en bra inverkan på vår teamkultur. Vi behöver fler Alma på det här företaget.",
+        "sender": "Manager",
+        "date": "2023"
+      },
+      {
+        "id": 5,
+        "comment": "Alma har coachat och väglett våra nya teammedlemmar och har gjort ett utmärkt jobb med att utföra en detaljerad review av assistenternas arbete. Hon är stolt över sitt arbete och är alltid angelägen om att lära sig nya saker. Jag är extremt tacksam över att ha henne som en del av teamet.",
+        "sender": "Senior manager",
+        "date": "2022"
+      }
+    ]
+  },
 
-    "contact": {
-        "title": "Kontakt",
-        "location1": "Baserad i Stockholm",
-        "location2": "Tillgänglig på distans"
-    }
+  "contact": {
+    "title": "Kontakt",
+    "location1": "Baserad i Stockholm",
+    "location2": "Tillgänglig på distans"
+  }
 }

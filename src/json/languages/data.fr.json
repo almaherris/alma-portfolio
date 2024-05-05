@@ -1,116 +1,113 @@
 {
-    "navbar": {
-        "tech": "Tech",
-        "projects": "Projets",
-        "skills": "Compétences",
-        "feedback": "Références",
-        "contact": "Contact"
-    },
+  "navbar": {
+    "tech": "Tech",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "feedback": "Références",
+    "contact": "Contact"
+  },
 
-    "intro": {
-        "headline": "Frontend developer",
-        "text": "Après un parcours dans la finance, j'ai développé une nouvelle passion pour le développement web. Je suis actuellement une formation intensive pour maîtriser des outils comme React, Node.js et Mongo. Ma spécificité, allier mon attention aux détails et ma capacité à résoudre des problèmes pour délivrer des expériences digitales uniques et user-friendly.",        
-        "linkText": "Voir mes projets",
-        "location": "Basée à Stockholm"
-    },
+  "intro": {
+    "headline": "Frontend developer",
+    "text": "Après un parcours dans la finance, j'ai développé une nouvelle passion pour le développement web. Je suis actuellement une formation intensive pour maîtriser des outils comme React, Node.js et Mongo. Ma spécificité, allier mon attention aux détails et ma capacité à résoudre des problèmes pour délivrer des expériences digitales uniques et user-friendly.",
+    "linkText": "Voir mes projets",
+    "location": "Basée à Stockholm"
+  },
 
-    "tech": {
-        "title": "Tech"
-    },
+  "tech": {
+    "title": "Tech"
+  },
 
-    "projects": {
-        "title": "Projets",
-        "netlifyBtn": "Live demo",
-        "githubBtn": "Voir le code"
-    },
+  "projects": {
+    "title": "Projets",
+    "netlifyBtn": "Live demo",
+    "githubBtn": "Voir le code"
+  },
 
-    "skills": {
-        "title": "Compétences",
-        "categories": [
-          {
-            "title": "Code",
-            "skills": [
-              "HTML5",
-              "CSS3",
-              "Tailwind CSS",
-              "Javascript ES6",
-              "ReactJS",
-              "NodeJS",
-              "ExpressJS"
-            ]
-          },
-          {
-            "title": "Boîte à outils",
-            "skills": [
-              "Postman",
-              "GitHub",
-              "VS Code",
-              "Figma",
-              "RESTful API",
-              "Google Lighthouse"
-            ]
-          },
-          {
-            "title": "Autres",
-            "skills": [
-              "Méthodologie Agile",
-               "Programmation en groupe",
-               "Responsive design",
-               "Contrôle de version",
-               "Accessibilité Web",
-               "Code review"
-            ]
-          },
-          {
-            "title": "À venir",
-            "skills": [
-              "MongoDB",
-              "Python"
-            ]
-          }
-        ],
-        "cta": "Télécharger mon CV"
+  "skills": {
+    "title": "Compétences",
+    "categories": [
+      {
+        "title": "Code",
+        "skills": [
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "Javascript ES6",
+          "ReactJS",
+          "NodeJS",
+          "ExpressJS"
+        ]
       },
+      {
+        "title": "Boîte à outils",
+        "skills": [
+          "Postman",
+          "GitHub",
+          "VS Code",
+          "Figma",
+          "RESTful API",
+          "Google Lighthouse"
+        ]
+      },
+      {
+        "title": "Autres",
+        "skills": [
+          "Méthodologie Agile",
+          "Programmation en groupe",
+          "Responsive design",
+          "Contrôle de version",
+          "Accessibilité Web",
+          "Code review"
+        ]
+      },
+      {
+        "title": "À venir",
+        "skills": ["MongoDB", "Python"]
+      }
+    ],
+    "cta": "Télécharger mon CV"
+  },
 
-    "feedback": {
-        "title": "Références",
-        "snapshot": [
-            {
-              "id": 1,
-              "comment": "Je peux faire confiance à Alma pour accomplir ses tâches à temps et avec une grande qualité. Elle comprend les missions qui lui sont confiées, pose des questions pertinentes lorsque nécessaire et livre un produit de haute qualité. Je suis très heureux d'avoir Alma dans mon équipe.",
-              "sender": "Senior manager",
-              "date": "2023"
-            },
-            {
-              "id": 2,
-              "comment": "Alma a fait un excellent travail de coordination sur ce projet. Elle est très proactive et cela garantit que tout se déroule facilement. Elle a également bien transmis son travail au junior qui a pris en charge cette section, en offrant un soutien continu lorsque nécessaire, ce qui montre également qu'elle a un bon esprit d'équipe.",
-              "sender": "Manager",
-              "date": "2024"
-            },
-            {
-              "id": 3,
-              "comment": "C'est toujours un énorme plaisir de travailler avec Alma et vous pouvez toujours faire confiance au travail effectué et examiné par elle.",
-              "sender": "Assistant manager",
-              "date": "2023"
-            },
-            {
-              "id": 4,
-              "comment": "Elle est une personne clé de notre équipe et prend beaucoup de responsabilités. Elle prend également la parole quand elle en a besoin et cela est apprécié par le reste de l'équipe. Alma est aussi très positive et a un bon impact sur notre culture d'équipe. Nous avons besoin de plus d'Alma dans cette entreprise.",
-              "sender": "Manager",
-              "date": "2023"
-            },
-            {
-              "id": 5,
-              "comment": "Alma a coaché et guidé nos nouveaux membres d'équipe et a fait un excellent travail en effectuant une revue détaillée du travail des assistants. Elle est fière de son travail et est toujours désireuse d'apprendre. Je suis extrêmement reconnaissant de l'avoir comme membre de l'équipe.",
-              "sender": "Senior manager",
-              "date": "2022"
-            }
-          ]
-    },
+  "feedback": {
+    "title": "Références",
+    "snapshot": [
+      {
+        "id": 1,
+        "comment": "Je peux faire confiance à Alma pour accomplir ses tâches à temps et avec une grande qualité. Elle comprend les missions qui lui sont confiées, pose des questions pertinentes lorsque nécessaire et livre un produit de haute qualité. Je suis très heureux d'avoir Alma dans mon équipe.",
+        "sender": "Senior manager",
+        "date": "2023"
+      },
+      {
+        "id": 2,
+        "comment": "Alma a fait un excellent travail de coordination sur ce projet. Elle est très proactive et cela garantit que tout se déroule facilement. Elle a également bien transmis son travail au junior qui a pris en charge cette section, en offrant un soutien continu lorsque nécessaire, ce qui montre également qu'elle a un bon esprit d'équipe.",
+        "sender": "Manager",
+        "date": "2024"
+      },
+      {
+        "id": 3,
+        "comment": "C'est toujours un énorme plaisir de travailler avec Alma et vous pouvez toujours faire confiance au travail effectué et examiné par elle.",
+        "sender": "Assistant manager",
+        "date": "2023"
+      },
+      {
+        "id": 4,
+        "comment": "Elle est une personne clé de notre équipe et prend beaucoup de responsabilités. Elle prend également la parole quand elle en a besoin et cela est apprécié par le reste de l'équipe. Alma est aussi très positive et a un bon impact sur notre culture d'équipe. Nous avons besoin de plus d'Alma dans cette entreprise.",
+        "sender": "Manager",
+        "date": "2023"
+      },
+      {
+        "id": 5,
+        "comment": "Alma a coaché et guidé nos nouveaux membres d'équipe et a fait un excellent travail en effectuant une revue détaillée du travail des assistants. Elle est fière de son travail et est toujours désireuse d'apprendre. Je suis extrêmement reconnaissant de l'avoir comme membre de l'équipe.",
+        "sender": "Senior manager",
+        "date": "2022"
+      }
+    ]
+  },
 
-    "contact": {
-        "title": "Contact",
-        "location1": "Basée à Stockholm",
-        "location2": "Disponible en télétravail"
-    }
+  "contact": {
+    "title": "Contact",
+    "location1": "Basée à Stockholm",
+    "location2": "Disponible en télétravail"
+  }
 }

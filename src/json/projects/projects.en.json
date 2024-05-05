@@ -5,13 +5,7 @@
       "name": "Happy Thoughts",
       "image": "/happythoughts.png",
       "description": "A React project focused on state management, API interactions for fetching and posting data. Features include a design-aligned UI, like count for each thought, a form for new thoughts, and a like functionality.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "APIs"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify_url": "https://happythoughts-app.netlify.app/",
       "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
     },
@@ -20,12 +14,7 @@
       "name": "Weather App",
       "image": "/weatherapp.png",
       "description": "A weather app fetching weather data from OpenWeatherMap API. Key features include presenting weather data, functionalities such as displaying current weather, sunrise/sunset times, 5-day forecast and a search function for different cities.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "APIs"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify_url": "https://clear-skies-ahead.netlify.app/",
       "github_url": "https://github.com/almaherris/project-weather-app"
     },
@@ -34,12 +23,7 @@
       "name": "Music Releases",
       "image": "/musicproject.png",
       "description": "A React app to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify_url": "https://musicreleaseproject-react.netlify.app/",
       "github_url": "https://github.com/almaherris/project-music-releases-vite"
     },
@@ -48,11 +32,7 @@
       "name": "Chatbot",
       "image": "/chatbot.png",
       "description": "A chatbot developed with JavaScript, focusing on user input handling. A structured conversational flow was implemented, along with conditional responses for invalid inputs.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify_url": "https://valentinescafe.netlify.app/",
       "github_url": "https://github.com/almaherris/project-chatbot"
     },
@@ -61,12 +41,7 @@
       "name": "Survey",
       "image": "/survey.png",
       "description": "A React project to create a customizable survey form. Focus on React state and form control. After submission, users see a summary. Followed a given design in Figma and prioritised accessibility using Google Lighthouse.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify_url": "https://surprise-holiday.netlify.app/",
       "github_url": "https://github.com/almaherris/project-survey-vite"
     },
@@ -75,12 +50,7 @@
       "name": "To Do App",
       "image": "/todo.png",
       "description": "Create a todo app utilizing the Context API, allowing users to add, list, and remove tasks while ensuring a clean design. Includes component hierarchy and global state management.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React"],
       "netlify_url": "https://avocado-todo.netlify.app",
       "github_url": "https://github.com/almaherris/project-todos-context-vite"
     },
@@ -89,13 +59,7 @@
       "name": "Movie Collection",
       "image": "/movies.png",
       "description": "Movie library with data fetched from themoviedb.org's API. Features include display movie list, rendering movie specifics, and managing image URLs. Enhancements include error handling, loading states, and dynamic movie lists.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "APIs"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify_url": "https://movies-reactrouter.netlify.app/",
       "github_url": "https://github.com/almaherris/project-movies-vite"
     },
@@ -104,13 +68,7 @@
       "name": "Labyrinth Game",
       "image": "/labyrinth.png",
       "description": "A text-based adventure built using Zustand for state management and an API to post data. In this interactive game, players navigate through a series of choices based on the provided descriptions and actions. The project also includes creating a user-friendly design and handling loading states.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "React",
-        "APIer"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify_url": "https://alma-wen-labyrinth.netlify.app/",
       "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
     },
@@ -119,13 +77,7 @@
       "name": "UX Collaboration",
       "image": "/ux-handoff.png",
       "description": "In this project I transformed a UX student's design into a landing page for a fitness club using React and Tailwind. This project bridges the gap between design and development, showcasing the art of bringing visuals to life with code.",
-      "tags": [
-        "HTML5",
-        "Tailwind",
-        "JavaScript",
-        "React",
-        "APIer"
-      ],
+      "tags": ["HTML5", "Tailwind", "JavaScript", "React"],
       "netlify_url": "https://urban-spin.netlify.app/",
       "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
     }
