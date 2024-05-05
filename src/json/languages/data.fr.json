@@ -32,10 +32,10 @@
             "skills": [
               "HTML5",
               "CSS3",
+              "Tailwind CSS",
               "Javascript ES6",
               "ReactJS",
               "NodeJS",
-              "RESTful API",
               "ExpressJS"
             ]
           },
@@ -43,10 +43,10 @@
             "title": "Boîte à outils",
             "skills": [
               "Postman",
-              "Tailwind CSS",
               "GitHub",
               "VS Code",
               "Figma",
+              "RESTful API",
               "Google Lighthouse"
             ]
           },

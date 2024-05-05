@@ -34,8 +34,8 @@
               "CSS3",
               "Javascript ES6",
               "ReactJS",
+              "Tailwind CSS",
               "NodeJS",
-              "RESTful API",
               "ExpressJS"
             ]
           },
@@ -43,10 +43,10 @@
             "title": "Toolbox",
             "skills": [
               "Postman",
-              "Tailwind CSS",
               "GitHub",
               "VS Code",
               "Figma",
+              "RESTful API",
               "Google Lighthouse"
             ]
           },

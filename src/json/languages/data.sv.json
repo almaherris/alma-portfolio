@@ -33,10 +33,10 @@
             "skills": [
               "HTML5",
               "CSS3",
+              "Tailwind CSS",
               "Javascript ES6",
               "ReactJS",
               "NodeJS",
-              "RESTful API",
               "ExpressJS"
             ]
           },
@@ -44,10 +44,10 @@
             "title": "Verktyg",
             "skills": [
               "Postman",
-              "Tailwind CSS",
               "GitHub",
               "VS Code",
               "Figma",
+              "RESTful API",
               "Google Lighthouse"
             ]
           },
