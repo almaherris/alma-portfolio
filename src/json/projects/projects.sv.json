@@ -45,7 +45,7 @@
     },
     {
       "id": 4,
-      "name": "Chatbot",
+      "name": "Chatt-bot",
       "image": "/chatbot.png",
       "description": "En chatbot utvecklad med JavaScript, med fokus på hantering av användar-input. Ett strukturerat samtalsflöde implementerades, tillsammans med villkorade svar för ogiltiga indata.",
       "tags": [
@@ -101,7 +101,7 @@
     },
     {
       "id": 8,
-      "name": "Labyrinth Game",
+      "name": "Labyrint-spel",
       "image": "/movies.png",
       "description": "Ett textbaserat äventyr byggd med Zustand för state management och en API för att hämta och posta data. I detta interaktiva spel navigerar spelarna genom en serie val baserade på givna beskrivningarna och handlingar. Projektet inkluderar även att skapa en användarvänlig design och hantering av laddningstillstånd.",
       "tags": [
