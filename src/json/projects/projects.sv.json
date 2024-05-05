@@ -31,7 +31,7 @@
     },
     {
       "id": 3,
-      "name": "Music Releases",
+      "name": "Albumbibliotek",
       "image": "/musicproject.png",
       "description": "En React-app för att visa albumsläpp. Funktioner inkluderar en strukturerad komponenthierarki och följa en given design med responsiv layout. Att klicka på album eller artister länkar till externa webbadresser. Fokus ligger på dataflöde och UI-interaktioner.",
       "tags": [
@@ -58,7 +58,7 @@
     },
     {
       "id": 5,
-      "name": "Survey",
+      "name": "Enkät",
       "image": "/survey.png",
       "description": "Ett React-projekt för att skapa ett enkätformulär. Fokus på React useState och formulärkontroll. Efter inlämning ser användarna en sammanfattning av sina svar. Följde en given design i Figma och säkerställde tillgänglighet med Google Lighthouse.",
       "tags": [
@@ -86,9 +86,9 @@
     },
     {
       "id": 7,
-      "name": "Movie Collection",
+      "name": "Filmbibliotek",
       "image": "/movies.png",
-      "description": "Movie library with data fetched from themoviedb.org's API. Features include display movie list, rendering movie specifics, and managing image URLs. Enhancements include error handling, loading states, and dynamic movie lists.",
+      "description": "Filmbibliotek med data hämtad från themoviedb.org:s API. Funktioner inkluderar visning av filmlista och möjlighet att se detaljer om enskild film genom React Router. Fokus ligger även på felhantering och laddningstillstånd.",
       "tags": [
         "HTML5",
         "CSS3",

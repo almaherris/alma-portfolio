@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
-import snapshot from "../../../json/snapshot.json"
+import { useLanguageData } from "../../../hooks/useLanguageData"
 import "./CarouselComponent.css"
 
 const responsive = {
@@ -22,6 +22,8 @@ const responsive = {
 }
 
 export const CarouselComponent = () => {
+  const data = useLanguageData()
+
   return (
     <Carousel
       swipeable={true}
@@ -35,7 +37,7 @@ export const CarouselComponent = () => {
       removeArrowOnDeviceType={["tablet", "mobile"]}
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px">
-      {snapshot.snapshot.map((item) => (
+      {data.feedback.snapshot.map((item) => (
         <div className="feedback-item" key={item.id}>
           <p className="feedback-comment">&quot;{item.comment}&quot;</p>
           <p className="feedback-sender">- {item.sender}</p>
