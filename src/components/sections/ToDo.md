@@ -1,4 +1,0 @@
-- Toggle dark/light mode
-- og tags
-- make sure projects are there
-- add more projects?

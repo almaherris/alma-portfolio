@@ -1,7 +1,7 @@
-### Alma Herrström Portfolio
+### Welcome to my Portfolio!
 
 ![Screenshot of my portfolio](og-img.png)
 
-## Link to portfolio
+## See it live
 
 https://almaherrstrom.netlify.app/
