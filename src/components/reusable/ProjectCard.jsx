@@ -1,17 +1,38 @@
-import projectsEn from "../../json/projects/projects.en.json"
 import { IoGlobeOutline } from "react-icons/io5"
 import { FaGithub } from "react-icons/fa"
 import { Tags } from "./Tags"
 import { Button } from "./Buttons"
+import { LanguageContext } from "../../contexts/LanguageContext"
 import { useLanguageData } from "../../hooks/useLanguageData"
+import projectsEn from "../../json/projects/projects.en.json"
+import projectsFr from "../../json/projects/projects.fr.json"
+import projectsSv from "../../json/projects/projects.sv.json"
 import "./ProjectCard.css"
+import { useContext } from "react"
 
 export const ProjectCard = () => {
   const data = useLanguageData()
 
+  const { language } = useContext(LanguageContext)
+  let projects
+
+  switch (language) {
+    case "en":
+      projects = projectsEn.projects
+      break
+    case "sv":
+      projects = projectsSv.projects
+      break
+    case "fr":
+      projects = projectsFr.projects
+      break
+    default:
+      projects = projectsEn.projects
+  }
+
   return (
     <div className="project-card">
-      {projectsEn.projects.map(
+      {projects.map(
         ({ id, name, description, tags, image, netlify_url, github_url }) => {
           return (
             <div className="project-item" key={id}>
