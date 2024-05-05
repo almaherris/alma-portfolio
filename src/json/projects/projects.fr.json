@@ -4,8 +4,7 @@
       "id": 1,
       "name": "Happy Thoughts",
       "image": "/happythoughts.png",
-      "descriptionEn": "A React project focused on state management, API interactions for fetching and posting data. Features include a design-aligned UI, like count for each thought, a form for new thoughts, and a like functionality.",
-      "description": "Un projet React axé sur la gestion de l'état, les interactions avec les API pour la récupération et la publication de données. Les fonctionnalités incluent une interface utilisateur alignée sur le design, un compteur de likes pour chaque pensée, un formulaire pour de nouvelles pensées, et une fonctionnalité de like.",
+      "description": "Un projet React axé sur le state management et les interactions avec les API pour la récupération et la publication de données. Les fonctionnalités incluent une interface utilisateur alignée sur le design, un compteur de likes pour chaque pensée et un formulaire pour de nouvelles pensées.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -20,8 +19,7 @@
       "id": 2,
       "name": "Application Météo",
       "image": "/weatherapp.png",
-      "descriptionEn": "A weather app fetching weather data from OpenWeatherMap API. Key features include presenting weather data, functionalities such as displaying current weather, sunrise/sunset times, 5-day forecast and a search function for different cities.",
-      "description": "Une application météo récupérant les données météorologiques de l'API OpenWeatherMap. Les principales fonctionnalités incluent la présentation des données météorologiques, des fonctionnalités telles que l'affichage de la météo actuelle, des heures de lever/coucher du soleil, des prévisions sur 5 jours et une fonction de recherche pour différentes villes.",
+      "description": "Une application météo récupérant les données météorologiques de l'API OpenWeatherMap. Les principales fonctionnalités incluent la présentation des données météorologiques, des fonctionnalités telles que l'affichage de la météo actuelle, des heures de lever/coucher du soleil, des prévisions sur 5 jours et une fonction de recherche.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -33,10 +31,9 @@
     },
     {
       "id": 3,
-      "name": "Music Releases",
+      "name": "Portail Musique",
       "image": "/musicproject.png",
-      "descriptionEn": "A React app template to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
-      "description": "Un modèle d'application React pour afficher les sorties d'albums. Les fonctionnalités incluent une hiérarchie de composants structurée, une fidélité au design et des mises en page adaptatives. En cliquant sur les albums ou les artistes, cela mène à des URL externes. L'accent est mis sur le flux de données et les interactions utilisateur.",
+      "description": "Un modèle d'application React pour afficher les sorties d'albums. Les fonctionnalités incluent une hiérarchie de composants, une fidélité au design et des mises en page adaptatives. Cliquer sur les albums ou les artistes redirige vers des URL externes. L'accent est mis sur le flux de données et les interactions utilisateur.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -50,8 +47,7 @@
       "id": 4,
       "name": "Chatbot",
       "image": "/chatbot.png",
-      "descriptionEn": "A chatbot developed with JavaScript, focusing on user input handling. A structured conversational flow was implemented, along with conditional responses for invalid inputs.",
-      "description": "Un chatbot développé avec JavaScript, axé sur la gestion des entrées utilisateur. Un flux conversationnel structuré a été implémenté, ainsi que des réponses conditionnelles pour les entrées non valides.",
+      "description": "Un chatbot développé avec JavaScript axé sur la gestion des entrées utilisateur. Un flux conversationnel structuré a été implémenté, ainsi que des réponses conditionnelles pour les entrées non valides.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -64,8 +60,7 @@
       "id": 5,
       "name": "Sondage",
       "image": "/survey.png",
-      "descriptionEn": "A React project to create a customizable survey form. Focus on React state and form control. After submission, users see a summary. Followed a given design in Figma and prioritised accessibility using Google Lighthouse.",
-      "description": "Un projet React pour créer un formulaire de sondage personnalisable. L'accent est mis sur l'état React et le contrôle de formulaire. Après soumission, les utilisateurs voient un résumé. Suivi d'un design donné dans Figma et priorisation de l'accessibilité en utilisant Google Lighthouse.",
+      "description": "Un projet React pour créer un formulaire de sondage. L'accent est mis sur React useState et le contrôle de formulaire. Suivi d'un design donné dans Figma et priorisation de l'accessibilité en utilisant Google Lighthouse.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -77,10 +72,9 @@
     },
     {
       "id": 6,
-      "name": "Application de Tâches",
+      "name": "To Do List",
       "image": "/todo.png",
-      "descriptionEn": "Create a todo app utilizing the Context API, allowing users to add, list, and remove tasks while ensuring a clean design. Build components, manage state with Context and implement features such as adding tasks and customizing checkboxes.",
-      "description": "Créer une application de tâches utilisant l'API Context, permettant aux utilisateurs d'ajouter, de lister et de supprimer des tâches tout en garantissant un design épuré. Construire des composants, gérer l'état avec Context et implémenter des fonctionnalités telles que l'ajout de tâches et la personnalisation des cases à cocher.",
+      "description": "Créer une application de tâches utilisant l'API Context permettant aux utilisateurs d'ajouter, de lister et de supprimer des tâches tout en garantissant un design épuré. Comprend une hiérarchie de composants et global state management.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -94,8 +88,7 @@
       "id": 7,
       "name": "Collection de Films",
       "image": "/movies.png",
-      "descriptionEn": "Movie library with data fetched from themoviedb.org's API. Features include display movie list, rendering movie specifics, and managing image URLs. Enhancements include error handling, loading states, and dynamic movie lists.",
-      "description": "Bibliothèque de films avec des données récupérées de l'API themoviedb.org. Les fonctionnalités incluent l'affichage de la liste des films, le rendu des spécificités des films et la gestion des URL d'images. Les améliorations incluent la gestion des erreurs, les états de chargement et les listes de films dynamiques.",
+      "description": "Collection de films avec des données récupérées depuis l'API de themoviedb.org. Les fonctionnalités incluent l'affichage de la liste des films et la possibilité de consulter les détails d'un film individuel via React Router. L'accent est également mis sur la gestion des erreurs et les états de chargement.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -105,6 +98,36 @@
       ],
       "netlify_url": "https://movies-reactrouter.netlify.app/",
       "github_url": "https://github.com/almaherris/project-movies-vite"
+    },
+    {
+      "id": 8,
+      "name": "Jeu Labyrinthe",
+      "image": "/labyrinth.png",
+      "description": "Une aventure construite en utilisant Zustand pour la gestion d'état et une API pour envoyer et chercher des données. Dans ce jeu interactif, les joueurs naviguent à travers une série de choix basés sur les descriptions et actions fournies par l'API. Le projet inclut également la création d'une interface user-friendly et la gestion des états de chargement.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "APIer"
+      ],
+      "netlify_url": "https://alma-wen-labyrinth.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
+    },
+    {
+      "id": 9,
+      "name": "Collaboration UX",
+      "image": "/ux-handoff.png",
+      "description": "Dans ce projet, j'ai intégré le design d'un étudiant UX dans une landing page pour un club de fitness utilisant React et Tailwind. Ce projet comble le fossé entre la conception et le développement, mettant en valeur l'art de donner vie aux images avec du code.",
+      "tags": [
+        "HTML5",
+        "Tailwind",
+        "JavaScript",
+        "React",
+        "APIer"
+      ],
+      "netlify_url": "https://urban-spin.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-design-handoff-vite"
     }
   ]
 }

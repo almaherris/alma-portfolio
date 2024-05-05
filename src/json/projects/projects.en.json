@@ -98,6 +98,36 @@
       ],
       "netlify_url": "https://movies-reactrouter.netlify.app/",
       "github_url": "https://github.com/almaherris/project-movies-vite"
+    },
+    {
+      "id": 8,
+      "name": "Labyrinth Game",
+      "image": "/labyrinth.png",
+      "description": "A text-based adventure built using Zustand for state management and an API to post data. In this interactive game, players navigate through a series of choices based on the provided descriptions and actions. The project also includes creating a user-friendly design and handling loading states.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "APIer"
+      ],
+      "netlify_url": "https://alma-wen-labyrinth.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
+    },
+    {
+      "id": 9,
+      "name": "UX Collaboration",
+      "image": "/ux-handoff.png",
+      "description": "In this project I transformed a UX student's design into a landing page for a fitness club using React and Tailwind. This project bridges the gap between design and development, showcasing the art of bringing visuals to life with code.",
+      "tags": [
+        "HTML5",
+        "Tailwind",
+        "JavaScript",
+        "React",
+        "APIer"
+      ],
+      "netlify_url": "https://urban-spin.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
     }
   ]
 }

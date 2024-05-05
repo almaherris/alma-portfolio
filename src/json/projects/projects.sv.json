@@ -98,6 +98,36 @@
       ],
       "netlify_url": "https://movies-reactrouter.netlify.app/",
       "github_url": "https://github.com/almaherris/project-movies-vite"
+    },
+    {
+      "id": 8,
+      "name": "Labyrinth Game",
+      "image": "/movies.png",
+      "description": "Ett textbaserat äventyr byggd med Zustand för state management och en API för att hämta och posta data. I detta interaktiva spel navigerar spelarna genom en serie val baserade på givna beskrivningarna och handlingar. Projektet inkluderar även att skapa en användarvänlig design och hantering av laddningstillstånd.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "APIer"
+      ],
+      "netlify_url": "https://movies-reactrouter.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
+    },
+    {
+      "id": 9,
+      "name": "UX-samarbete",
+      "image": "/ux-handoff.png",
+      "description": "I det här projektet byggde jag en UX-students design till en landningssida för en fitnessklubb med hjälp av React och Tailwind. Det här projektet överbryggar klyftan mellan design och utveckling, och visar upp konsten att väcka bild till liv med kod.",
+      "tags": [
+        "HTML5",
+        "Tailwind",
+        "JavaScript",
+        "React",
+        "APIer"
+      ],
+      "netlify_url": "https://urban-spin.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-design-handoff-vite"
     }
   ]
 }

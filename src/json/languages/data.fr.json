@@ -9,7 +9,7 @@
 
     "intro": {
         "headline": "Frontend developer",
-        "text": "With a background in financial audit and a new-found passion for web development, I'm currently in a fast-paced boot camp learning tools like React, Node.js and Express. I'm blending my attention to detail and problem-solving skills to create user-friendly digital experiences.",
+        "text": "Après un parcours dans la finance, j'ai développé une nouvelle passion pour le développement web. Je suis actuellement une formation intensive pour maîtriser des outils comme React, Node.js et Mongo. Ma spécificité, allier mon attention aux détails et ma capacité à résoudre des problèmes pour délivrer des expériences digitales uniques et user-friendly.",        
         "linkText": "Voir mes projets",
         "location": "Basée à Stockholm"
     },
@@ -57,7 +57,8 @@
                "Programmation en groupe",
                "Responsive design",
                "Contrôle de version",
-               "Accessibilité Web"
+               "Accessibilité Web",
+               "Code review"
             ]
           },
           {
@@ -76,35 +77,30 @@
         "snapshot": [
             {
               "id": 1,
-              "commentEn": "I can trust Alma to get things done on time and at high quality. She understands the assignments given to her, asks questions when relevant and delivers a high quality product. I am very happy to have Alma on my team.",  
-              "comment": "Je peux faire confiance à Alma pour accomplir les tâches à temps et avec une grande qualité. Elle comprend les missions qui lui sont confiées, pose des questions pertinentes lorsque nécessaire et livre un produit de haute qualité. Je suis très heureux d'avoir Alma dans mon équipe.",
+              "comment": "Je peux faire confiance à Alma pour accomplir ses tâches à temps et avec une grande qualité. Elle comprend les missions qui lui sont confiées, pose des questions pertinentes lorsque nécessaire et livre un produit de haute qualité. Je suis très heureux d'avoir Alma dans mon équipe.",
               "sender": "Senior manager",
               "date": "2023"
             },
             {
               "id": 2,
-              "commentEn": "Alma has been doing a great job of coordinating this project. She is very proactive and this ensures that everything moves smoothly. She also performed a good hand-over of her work to the junior taking over this section with continued support when needed which also shows that she is a good team player.",  
               "comment": "Alma a fait un excellent travail de coordination sur ce projet. Elle est très proactive et cela garantit que tout se déroule facilement. Elle a également bien transmis son travail au junior qui a pris en charge cette section, en offrant un soutien continu lorsque nécessaire, ce qui montre également qu'elle a un bon esprit d'équipe.",
               "sender": "Manager",
               "date": "2024"
             },
             {
               "id": 3,
-              "commentEn": "It is always an extreme pleasure to work with Alma and you can always trust the work performed and reviewed by her.",  
               "comment": "C'est toujours un énorme plaisir de travailler avec Alma et vous pouvez toujours faire confiance au travail effectué et examiné par elle.",
               "sender": "Assistant manager",
               "date": "2023"
             },
             {
               "id": 4,
-              "commentEn": "It has been great working with Alma and seeing her develop over the year. She is a key person on our team and carries a lot of responsibility. She also speaks up when she needs to and that is appreciated by the rest of the team. Alma is also very positive and has a good impact on our team culture. We need more Alma's at this company.",  
-              "comment": "Elle est une personne clé de notre équipe et porte beaucoup de responsabilités. Elle prend également la parole quand elle en a besoin et cela est apprécié par le reste de l'équipe. Alma est également très positive et a un bon impact sur notre culture d'équipe. Nous avons besoin de plus d'Alma dans cette entreprise.",
+              "comment": "Elle est une personne clé de notre équipe et prend beaucoup de responsabilités. Elle prend également la parole quand elle en a besoin et cela est apprécié par le reste de l'équipe. Alma est aussi très positive et a un bon impact sur notre culture d'équipe. Nous avons besoin de plus d'Alma dans cette entreprise.",
               "sender": "Manager",
               "date": "2023"
             },
             {
               "id": 5,
-              "commentEn": "Alma has been coaching and guiding our new team members and has done an excellent job at performing a detailed review of the assistants' work. She takes pride in her work and is always eager to learn new things. I am extremely grateful to have her as a part of the team.",  
               "comment": "Alma a coaché et guidé nos nouveaux membres d'équipe et a fait un excellent travail en effectuant une revue détaillée du travail des assistants. Elle est fière de son travail et est toujours désireuse d'apprendre. Je suis extrêmement reconnaissant de l'avoir comme membre de l'équipe.",
               "sender": "Senior manager",
               "date": "2022"
