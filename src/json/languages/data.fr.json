@@ -40,7 +40,7 @@
             ]
           },
           {
-            "title": "Outils / Boîte à outils",
+            "title": "Boîte à outils",
             "skills": [
               "Postman",
               "Tailwind CSS",
@@ -51,11 +51,11 @@
             ]
           },
           {
-            "title": "Autre",
+            "title": "Autres",
             "skills": [
               "Méthodologie Agile",
                "Programmation en groupe",
-               "Conception réactive/adaptive / Responsive design",
+               "Responsive design",
                "Contrôle de version",
                "Accessibilité Web"
             ]
@@ -72,7 +72,7 @@
       },
 
     "feedback": {
-        "title": "Références / Témoignages",
+        "title": "Références",
         "snapshot": [
             {
               "id": 1,
