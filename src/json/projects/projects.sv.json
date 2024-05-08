@@ -66,7 +66,7 @@
     {
       "id": 8,
       "name": "Labyrint-spel",
-      "image": "/movies.png",
+      "image": "/labyrinth.png",
       "description": "Ett textbaserat äventyr byggd med Zustand för state management och en API för att hämta och posta data. I detta interaktiva spel navigerar spelarna genom en serie val baserade på givna beskrivningarna och handlingar. Projektet inkluderar även att skapa en användarvänlig design och hantering av laddningstillstånd.",
       "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIer"],
       "netlify_url": "https://movies-reactrouter.netlify.app/",
