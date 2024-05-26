@@ -1,6 +1,6 @@
 import "./SoMe.css"
 
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa"
+import { FaLinkedinIn, FaGithub } from "react-icons/fa"
 import "./SoMe.css"
 
 export const SoMe = () => {
@@ -19,13 +19,6 @@ export const SoMe = () => {
         rel="noopener noreferrer"
         aria-label="link to my github">
         <FaGithub />
-      </a>
-      <a
-        href="https://www.instagram.com/almaherrstrom/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="link to my instagram">
-        <FaInstagram />
       </a>
     </div>
   )
