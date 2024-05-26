@@ -47,7 +47,8 @@
           "VS Code",
           "Figma",
           "RESTful API",
-          "Google Lighthouse"
+          "Google Lighthouse",
+          "MongoDB"
         ]
       },
       {
@@ -58,12 +59,12 @@
           "Responsive Design",
           "Version Control",
           "Web Accessibility",
-          "Code review"
+          "Code Review"
         ]
       },
       {
         "title": "Upcoming",
-        "skills": ["MongoDB", "Python"]
+        "skills": ["Styled Components", "TypeScript", "Python"]
       }
     ],
     "cta": "Download CV"
