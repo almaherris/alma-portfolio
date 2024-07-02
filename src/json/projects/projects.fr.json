@@ -2,12 +2,20 @@
   "projects": [
     {
       "id": 1,
-      "name": "Happy Thoughts",
-      "image": "/happythoughts.png",
-      "description": "Un projet React axé sur le state management et les interactions avec les API pour la récupération et la publication de données. Les fonctionnalités incluent une interface utilisateur alignée sur le design, un compteur de likes pour chaque pensée et un formulaire pour de nouvelles pensées.",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
-      "netlify_url": "https://happythoughts-app.netlify.app/",
-      "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
+      "name": "Museek",
+      "image": "/museek.png",
+      "description": "Pour notre projet final à Technigo, mon collègue et moi avons construit ce site web pour permettre aux utilisateurs de découvrir des musées atypiques partout dans le monde. Nous avons créé le design, le frontend et le backend, y compris l'autorisation et l'authentification des utilisateurs connectés.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "APIs",
+        "Express",
+        "MongoDB"
+      ],
+      "netlify_url": "https://museek-project.netlify.app/",
+      "github_url": "https://github.com/Caracal23/project-final"
     },
     {
       "id": 2,
@@ -29,12 +37,12 @@
     },
     {
       "id": 4,
-      "name": "Chatbot",
-      "image": "/chatbot.png",
-      "description": "Un chatbot développé avec JavaScript axé sur la gestion des entrées utilisateur. Un flux conversationnel structuré a été implémenté, ainsi que des réponses conditionnelles pour les entrées non valides.",
-      "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify_url": "https://valentinescafe.netlify.app/",
-      "github_url": "https://github.com/almaherris/project-chatbot"
+      "name": "Happy Thoughts",
+      "image": "/happythoughts.png",
+      "description": "Un projet React axé sur le state management et les interactions avec les API pour la récupération et la publication de données. Les fonctionnalités incluent une interface utilisateur alignée sur le design, un compteur de likes pour chaque pensée et un formulaire pour de nouvelles pensées.",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
+      "netlify_url": "https://happythoughts-app.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
     },
     {
       "id": 5,

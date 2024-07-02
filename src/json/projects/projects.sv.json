@@ -2,12 +2,20 @@
   "projects": [
     {
       "id": 1,
-      "name": "Happy Thoughts",
-      "image": "/happythoughts.png",
-      "description": "Ett React-projekt fokuserat på state management, API-interaktioner för att hämta och posta data. Funktioner inkluderar bl.a. designanpassad UI, en räknare för antal gillningar, en textformulär för att posta nya tankar.",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIer"],
-      "netlify_url": "https://happythoughts-app.netlify.app/",
-      "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
+      "name": "Museek",
+      "image": "/museek.png",
+      "description": "Som vårt slutprojekt på Technigo byggde min klasskompis och jag denna webbplats som låter användare upptäcka ovanliga museer runt om i världen. Vi skapade designen, frontend och backend inklusive auktorisering och autentisering av inloggade användare.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "APIs",
+        "Express",
+        "MongoDB"
+      ],
+      "netlify_url": "https://museek-project.netlify.app/",
+      "github_url": "https://github.com/Caracal23/project-final"
     },
     {
       "id": 2,
@@ -29,12 +37,12 @@
     },
     {
       "id": 4,
-      "name": "Chatt-bot",
-      "image": "/chatbot.png",
-      "description": "En chatbot utvecklad med JavaScript, med fokus på hantering av användar-input. Ett strukturerat samtalsflöde implementerades, tillsammans med villkorade svar för ogiltiga indata.",
-      "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify_url": "https://valentinescafe.netlify.app/",
-      "github_url": "https://github.com/almaherris/project-chatbot"
+      "name": "Happy Thoughts",
+      "image": "/happythoughts.png",
+      "description": "Ett React-projekt fokuserat på state management, API-interaktioner för att hämta och posta data. Funktioner inkluderar bl.a. designanpassad UI, en räknare för antal gillningar, en textformulär för att posta nya tankar.",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIer"],
+      "netlify_url": "https://happythoughts-app.netlify.app/",
+      "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
     },
     {
       "id": 5,
