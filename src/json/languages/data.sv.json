@@ -9,7 +9,7 @@
 
   "intro": {
     "headline": "Frontend developer",
-    "text": "Med en bakgrund inom finansiell revision och en nyfunnen passion för webbutveckling tar jag just nu en intensivkurs där jag lär mig verktyg som React, Node och Mongo. Jag blandar mitt öga för detaljer med min färdighet att lösa problem för att skapa användarvänliga digitala upplevelser.",
+    "text": "Med en bakgrund inom finansiell revision och en nyfunnen passion för webbutveckling har jag nyligen avslutat en intensivkurs där jag har lärt mig verktyg som React, Node och MongoDB. Jag kombinerar mitt öga för detaljer med min färdighet att lösa problem för att skapa användarvänliga digitala upplevelser.",
     "linkText": "Se mina projekt",
     "location": "Baserad i Stockholm"
   },
@@ -36,7 +36,8 @@
           "Javascript ES6",
           "ReactJS",
           "NodeJS",
-          "ExpressJS"
+          "ExpressJS",
+          "Styled Components"
         ]
       },
       {
@@ -63,7 +64,7 @@
       },
       {
         "title": "Kommande",
-        "skills": ["Styled Components", "TypeScript", "Python"]
+        "skills": ["TypeScript", "Python"]
       }
     ],
     "cta": "Ladda ner CV"
@@ -92,7 +93,7 @@
       },
       {
         "id": 4,
-        "comment": "Det har varit fantastiskt att jobba med Alma och se henne utvecklas under året. Hon är en nyckelperson i vårt team och har ett stort ansvar. Hon säger också till när hon behöver och det uppskattas av teamet. Alma är också mycket positiv och har en bra inverkan på vår teamkultur. Vi behöver fler Alma på det här företaget.",
+        "comment": "Det har varit fantastiskt att jobba med Alma och se henne utvecklas under året. Hon är en nyckelperson i vårt team och har ett stort ansvar. Alma är också mycket positiv och har en bra inverkan på vår teamkultur. Vi behöver fler Alma på det här företaget.",
         "sender": "Manager",
         "date": "2023"
       },

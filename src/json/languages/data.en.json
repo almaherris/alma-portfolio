@@ -9,7 +9,7 @@
 
   "intro": {
     "headline": "Frontend developer",
-    "text": "With a background in financial audit and a new-found passion for web development, I'm currently in a fast-paced boot camp learning tools like React, Node.js and Mongo. I'm blending my attention to detail and problem-solving skills to create user-friendly digital experiences.",
+    "text": "With a background in financial audit and a recently acquired passion for web development, I have completed an intensive boot camp where I have learned tools like React, Node.js, and MongoDB. I combine my meticulous attention to detail and strong problem-solving abilities to develop intuitive and user-friendly digital experiences.",
     "linkText": "See my projects",
     "location": "Stockholm based"
   },
@@ -36,7 +36,8 @@
           "ReactJS",
           "Tailwind CSS",
           "NodeJS",
-          "ExpressJS"
+          "ExpressJS",
+          "Styled Components"
         ]
       },
       {
@@ -64,7 +65,7 @@
       },
       {
         "title": "Upcoming",
-        "skills": ["Styled Components", "TypeScript", "Python"]
+        "skills": ["TypeScript", "Python"]
       }
     ],
     "cta": "Download CV"
@@ -93,7 +94,7 @@
       },
       {
         "id": 4,
-        "comment": "It has been great working with Alma and seeing her develop over the year. She is a key person on our team and carries a lot of responsibility. She also speaks up when she needs to and that is appreciated by the rest of the team. Alma is also very positive and has a good impact on our team culture. We need more Alma's at this company.",
+        "comment": "It has been great working with Alma and seeing her develop over the year. She is a key person on our team and carries a lot of responsibility. Alma is also very positive and has a good impact on our team culture. We need more Alma's at this company.",
         "sender": "Manager",
         "date": "2023"
       },
