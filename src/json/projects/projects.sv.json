@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Museek",
       "image": "/museek.png",
-      "description": "Som vårt slutprojekt på Technigo byggde min klasskompis och jag denna webbplats som låter användare upptäcka ovanliga museer runt om i världen. Vi skapade designen, frontend och backend inklusive auktorisering och autentisering av inloggade användare.",
+      "description": "Vårt slutprojekt på Technigo är en webbplats som låter användare upptäcka ovanliga museer runt om i världen. Vi skapade designen, frontend och backend, inklusive auktorisering och autentisering av inloggade användare. Observera att databasen laddar långsamt på grund av gratis deployment på Render.",
       "tags": [
         "HTML5",
         "CSS3",

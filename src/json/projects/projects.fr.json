@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Museek",
       "image": "/museek.png",
-      "description": "Pour notre projet final à Technigo, mon collègue et moi avons construit ce site web pour permettre aux utilisateurs de découvrir des musées atypiques partout dans le monde. Nous avons créé le design, le frontend et le backend, y compris l'autorisation et l'authentification des utilisateurs connectés.",
+      "description": "Notre projet final à Technigo est un site web qui permet aux utilisateurs de découvrir des musées atypiques à travers le monde. Nous avons créé le design, le frontend et le backend, y compris l'autorisation et l'authentification des utilisateurs connectés. Veuillez noter que la base de données se charge lentement en raison du déploiement gratuit sur Render.",
       "tags": [
         "HTML5",
         "CSS3",
