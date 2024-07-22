@@ -22,7 +22,7 @@
       "name": "Väderapp",
       "image": "/weatherapp.png",
       "description": "En app som hämtar väderdata från OpenWeatherMap API. Appen inkluderar presentation av väderdata, funktioner som visning av aktuellt väder, tider för soluppgång/solnedgång, 5-dagarsprognos och en sökfunktion för olika städer.",
-      "tags": ["HTML5", "CSS3", "JavaScript", "APIer"],
+      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify_url": "https://clear-skies-ahead.netlify.app/",
       "github_url": "https://github.com/almaherris/project-weather-app"
     },
@@ -49,7 +49,7 @@
       "name": "Happy Thoughts",
       "image": "/happythoughts.png",
       "description": "Ett React-projekt fokuserat på state management, API-interaktioner för att hämta och posta data. Funktioner inkluderar bl.a. designanpassad UI, en räknare för antal gillningar, en textformulär för att posta nya tankar.",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIer"],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify_url": "https://happythoughts-app.netlify.app/",
       "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
     },
@@ -76,7 +76,7 @@
       "name": "Filmbibliotek",
       "image": "/movies.png",
       "description": "Filmbibliotek med data hämtad från themoviedb.org:s API. Funktioner inkluderar visning av filmlista och möjlighet att se detaljer om enskild film genom React Router. Fokus ligger även på felhantering och laddningstillstånd.",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIer"],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify_url": "https://movies-reactrouter.netlify.app/",
       "github_url": "https://github.com/almaherris/project-movies-vite"
     },
@@ -85,7 +85,7 @@
       "name": "Labyrint-spel",
       "image": "/labyrinth.png",
       "description": "Ett textbaserat äventyr byggd med Zustand för state management och en API för att hämta och posta data. I detta interaktiva spel navigerar spelarna genom en serie val baserade på givna beskrivningarna och handlingar. Projektet inkluderar även att skapa en användarvänlig design och hantering av laddningstillstånd.",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIer"],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React", "APIs"],
       "netlify_url": "https://alma-wen-labyrinth.netlify.app/",
       "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
     },
@@ -94,7 +94,7 @@
       "name": "UX-samarbete",
       "image": "/ux-handoff.png",
       "description": "I det här projektet byggde jag en UX-students design till en landningssida för en fitnessklubb med hjälp av React och Tailwind. Det här projektet överbryggar klyftan mellan design och utveckling, och visar upp konsten att väcka bild till liv med kod.",
-      "tags": ["HTML5", "Tailwind", "JavaScript", "React", "APIer"],
+      "tags": ["HTML5", "Tailwind", "JavaScript", "React", "APIs"],
       "netlify_url": "https://urban-spin.netlify.app/",
       "github_url": "https://github.com/almaherris/project-design-handoff-vite"
     }
