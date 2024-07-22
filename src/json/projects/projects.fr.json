@@ -28,6 +28,15 @@
     },
     {
       "id": 3,
+      "name": "Express API",
+      "image": "/michelin.png",
+      "description": "Un projet de base de données avec Mongoose pour stocker et interroger des données, incluant le remplissage depuis des fichiers JSON et des API RESTful pour les collections et les résultats individuels. Temps de chargement peut être lent à cause du déploiement gratuit sur Render.",
+      "tags": ["JavaScript", "Express", "MongoDB"],
+      "netlify_url": "https://michelin-restaurants.onrender.com/",
+      "github_url": "https://github.com/almaherris/project-mongo-api"
+    },
+    {
+      "id": 4,
       "name": "Portail Musique",
       "image": "/musicproject.png",
       "description": "Un modèle d'application React pour afficher les sorties d'albums. Les fonctionnalités incluent une hiérarchie de composants, une fidélité au design et des mises en page adaptatives. Cliquer sur les albums ou les artistes redirige vers des URL externes. L'accent est mis sur le flux de données et les interactions utilisateur.",
@@ -36,7 +45,7 @@
       "github_url": "https://github.com/almaherris/project-music-releases-vite"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Happy Thoughts",
       "image": "/happythoughts.png",
       "description": "Un projet React axé sur le state management et les interactions avec les API pour la récupération et la publication de données. Les fonctionnalités incluent une interface utilisateur alignée sur le design, un compteur de likes pour chaque pensée et un formulaire pour de nouvelles pensées.",
@@ -45,7 +54,7 @@
       "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Sondage",
       "image": "/survey.png",
       "description": "Un projet React pour créer un formulaire de sondage. L'accent est mis sur React useState et le contrôle de formulaire. Suivi d'un design donné dans Figma et priorisation de l'accessibilité en utilisant Google Lighthouse.",
@@ -54,7 +63,7 @@
       "github_url": "https://github.com/almaherris/project-survey-vite"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "To Do List",
       "image": "/todo.png",
       "description": "Créer une application de tâches utilisant l'API Context permettant aux utilisateurs d'ajouter, de lister et de supprimer des tâches tout en garantissant un design épuré. Comprend une hiérarchie de composants et global state management.",
@@ -63,7 +72,7 @@
       "github_url": "https://github.com/almaherris/project-todos-context-vite"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Collection de Films",
       "image": "/movies.png",
       "description": "Collection de films avec des données récupérées depuis l'API de themoviedb.org. Les fonctionnalités incluent l'affichage de la liste des films et la possibilité de consulter les détails d'un film individuel via React Router. L'accent est également mis sur la gestion des erreurs et les états de chargement.",
@@ -72,7 +81,7 @@
       "github_url": "https://github.com/almaherris/project-movies-vite"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Jeu Labyrinthe",
       "image": "/labyrinth.png",
       "description": "Une aventure construite en utilisant Zustand pour la gestion d'état et une API pour envoyer et chercher des données. Dans ce jeu interactif, les joueurs naviguent à travers une série de choix basés sur les descriptions et actions fournies par l'API. Le projet inclut également la création d'une interface user-friendly et la gestion des états de chargement.",
@@ -81,7 +90,7 @@
       "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Collaboration UX",
       "image": "/ux-handoff.png",
       "description": "Dans ce projet, j'ai intégré le design d'un étudiant UX dans une landing page pour un club de fitness utilisant React et Tailwind. Ce projet comble le fossé entre la conception et le développement, mettant en valeur l'art de donner vie aux images avec du code.",

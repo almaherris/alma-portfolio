@@ -28,6 +28,15 @@
     },
     {
       "id": 3,
+      "name": "Express API",
+      "image": "/michelin.png",
+      "description": "A database project using Mongoose to store and query data, featuring data seeding from JSON files and RESTful API endpoints for collections and individual results. Note: API loading time may be slow due to free deployment on Render.",
+      "tags": ["JavaScript", "Express", "MongoDB"],
+      "netlify_url": "https://michelin-restaurants.onrender.com/",
+      "github_url": "https://github.com/almaherris/project-mongo-api"
+    },
+    {
+      "id": 4,
       "name": "Music Releases",
       "image": "/musicproject.png",
       "description": "A React app to display album releases. Features include a structured component hierarchy, design fidelity and responsive layouts. Clicking on albums or artists links to external URLs. The focus is on data flow and UI interactions.",
@@ -36,7 +45,7 @@
       "github_url": "https://github.com/almaherris/project-music-releases-vite"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Happy Thoughts",
       "image": "/happythoughts.png",
       "description": "A React project focused on state management, API interactions for fetching and posting data. Features include a design-aligned UI, like count for each thought, a form for new thoughts, and a like functionality.",
@@ -45,7 +54,7 @@
       "github_url": "https://github.com/almaherris/project-happy-thoughts-vite"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Survey",
       "image": "/survey.png",
       "description": "A React project to create a customizable survey form. Focus on React state and form control. After submission, users see a summary. Followed a given design in Figma and prioritised accessibility using Google Lighthouse.",
@@ -54,7 +63,7 @@
       "github_url": "https://github.com/almaherris/project-survey-vite"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "To Do App",
       "image": "/todo.png",
       "description": "Create a todo app utilizing the Context API, allowing users to add, list, and remove tasks while ensuring a clean design. Includes component hierarchy and global state management.",
@@ -63,7 +72,7 @@
       "github_url": "https://github.com/almaherris/project-todos-context-vite"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Movie Collection",
       "image": "/movies.png",
       "description": "Movie library with data fetched from themoviedb.org's API. Features include display movie list, rendering movie specifics, and managing image URLs. Enhancements include error handling, loading states, and dynamic movie lists.",
@@ -72,7 +81,7 @@
       "github_url": "https://github.com/almaherris/project-movies-vite"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Labyrinth Game",
       "image": "/labyrinth.png",
       "description": "A text-based adventure built using Zustand for state management and an API to post data. In this interactive game, players navigate through a series of choices based on the provided descriptions and actions. The project also includes creating a user-friendly design and handling loading states.",
@@ -81,7 +90,7 @@
       "github_url": "https://github.com/almaherris/project-labyrinth-zustand-vite"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "UX Collaboration",
       "image": "/ux-handoff.png",
       "description": "In this project I transformed a UX student's design into a landing page for a fitness club using React and Tailwind. This project bridges the gap between design and development, showcasing the art of bringing visuals to life with code.",
