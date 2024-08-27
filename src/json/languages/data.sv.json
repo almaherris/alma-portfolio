@@ -63,8 +63,14 @@
         ]
       },
       {
-        "title": "Kommande",
-        "skills": ["TypeScript", "Python"]
+        "title": "Soft Skills",
+        "skills": [
+          "Kommunikation",
+          "Samarbete",
+          "Anpassningsförmåga",
+          "Problemlösning",
+          "Vilja att lära"
+        ]
       }
     ],
     "cta": "Ladda ner CV"

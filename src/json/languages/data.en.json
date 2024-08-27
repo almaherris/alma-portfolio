@@ -64,8 +64,14 @@
         ]
       },
       {
-        "title": "Upcoming",
-        "skills": ["TypeScript", "Python"]
+        "title": "Soft Skills",
+        "skills": [
+          "Communication",
+          "Collaboration",
+          "Adaptability",
+          "Problem Solving",
+          "Willingness to Learn"
+        ]
       }
     ],
     "cta": "Download CV"

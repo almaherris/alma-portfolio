@@ -63,8 +63,14 @@
         ]
       },
       {
-        "title": "À venir",
-        "skills": ["TypeScript", "Python"]
+        "title": "Soft Skills",
+        "skills": [
+          "Communication",
+          "Travail en équipe",
+          "Adaptabilité",
+          "Résolution de problèmes",
+          "Curiosité"
+        ]
       }
     ],
     "cta": "Télécharger mon CV"
